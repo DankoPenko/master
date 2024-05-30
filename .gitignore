@@ -15,3 +15,6 @@
 *.png
 **/*.jpg
 **/*.png
+
+!C:/master-thesis/Dataset-creation/data/*.jpg
+
