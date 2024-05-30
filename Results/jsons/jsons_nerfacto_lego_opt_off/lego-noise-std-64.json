@@ -1,0 +1,17 @@
+{
+  "experiment_name": "lego-noise-std-64",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs\\lego-noise-std-64\\nerfacto\\2024-02-19_063907\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 16.44965362548828,
+    "psnr_std": 2.8054137229919434,
+    "ssim": 0.719560980796814,
+    "ssim_std": 0.11208195239305496,
+    "lpips": 0.35856103897094727,
+    "lpips_std": 0.17432266473770142,
+    "num_rays_per_sec": 766199.6875,
+    "num_rays_per_sec_std": 45002.87890625,
+    "fps": 1.197187066078186,
+    "fps_std": 0.07031700015068054
+  }
+}

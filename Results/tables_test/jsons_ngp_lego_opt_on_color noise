@@ -1,0 +1,45 @@
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Color noise degradations. Instant-NGP model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 20.3826 & - & 0.8757 & - & 0.1957 & - \\
+\hline
+PnS Blue Channel 10 & 21.6204 & 6.07\% & 0.8662 & -1.10\% & 0.1657 & -15.34\% \\
+PnS Blue Channel 15 & 19.8029 & -2.84\% & 0.8283 & -5.41\% & 0.2207 & 12.80\% \\
+PnS Blue Channel 20 & 20.3980 & 0.08\% & 0.8438 & -3.65\% & 0.1948 & -0.48\% \\
+PnS Blue Channel 25 & 20.7128 & 1.62\% & 0.8507 & -2.85\% & 0.1694 & -13.43\% \\
+PnS Blue Channel 30 & 20.1913 & -0.94\% & 0.8352 & -4.63\% & 0.1985 & 1.42\% \\
+PnS Blue Channel 35 & 19.6868 & -3.41\% & 0.8250 & -5.79\% & 0.2214 & 13.16\% \\
+PnS Blue Channel 40 & 18.6312 & -8.59\% & 0.8035 & -8.25\% & 0.2562 & 30.91\% \\
+PnS Blue Channel 5 & 21.5208 & 5.58\% & 0.8780 & 0.26\% & 0.1622 & -17.13\% \\
+\hline
+PnS Green Channel 10 & 20.7179 & 1.64\% & 0.8610 & -1.68\% & 0.2127 & 8.69\% \\
+PnS Green Channel 15 & 19.9196 & -2.27\% & 0.8389 & -4.21\% & 0.2453 & 25.33\% \\
+PnS Green Channel 20 & 20.0967 & -1.40\% & 0.8460 & -3.39\% & 0.2284 & 16.73\% \\
+PnS Green Channel 25 & 19.7327 & -3.19\% & 0.8369 & -4.43\% & 0.2469 & 26.17\% \\
+PnS Green Channel 30 & 18.8285 & -7.62\% & 0.8166 & -6.75\% & 0.2895 & 47.93\% \\
+PnS Green Channel 35 & 18.6643 & -8.43\% & 0.8174 & -6.66\% & 0.2848 & 45.52\% \\
+PnS Green Channel 40 & 18.0206 & -11.59\% & 0.7960 & -9.11\% & 0.3214 & 64.24\% \\
+PnS Green Channel 5 & 21.2201 & 4.11\% & 0.8811 & 0.61\% & 0.1755 & -10.34\% \\
+\hline
+Image Noise 112 & 14.7958 & -27.41\% & 0.5714 & -34.75\% & 0.5376 & 174.73\% \\
+Image Noise 128 & 14.2520 & -30.08\% & 0.5499 & -37.21\% & 0.5614 & 186.89\% \\
+Image Noise 16 & 20.4594 & 0.38\% & 0.8843 & 0.98\% & 0.1713 & -12.46\% \\
+Image Noise 32 & 18.4918 & -9.28\% & 0.8277 & -5.49\% & 0.2792 & 42.65\% \\
+Image Noise 48 & 16.4202 & -19.44\% & 0.7297 & -16.67\% & 0.4361 & 122.88\% \\
+Image Noise 64 & 16.7760 & -17.69\% & 0.6884 & -21.39\% & 0.4622 & 136.22\% \\
+Image Noise 80 & 16.3659 & -19.71\% & 0.6365 & -27.32\% & 0.4822 & 146.43\% \\
+Image Noise 96 & 14.4915 & -28.90\% & 0.5509 & -37.10\% & 0.5752 & 193.92\% \\
+\hline
+PnS Red Channel 10 & 20.8420 & 2.25\% & 0.8634 & -1.41\% & 0.1936 & -1.08\% \\
+PnS Red Channel 15 & 19.8477 & -2.62\% & 0.8396 & -4.13\% & 0.2231 & 14.03\% \\
+PnS Red Channel 20 & 19.6239 & -3.72\% & 0.8339 & -4.77\% & 0.2392 & 22.25\% \\
+PnS Red Channel 25 & 18.4379 & -9.54\% & 0.8035 & -8.25\% & 0.2768 & 41.43\% \\
+PnS Red Channel 30 & 17.0676 & -16.26\% & 0.7713 & -11.92\% & 0.3311 & 69.19\% \\
+PnS Red Channel 35 & 16.2091 & -20.48\% & 0.7498 & -14.38\% & 0.3591 & 83.51\% \\
+PnS Red Channel 40 & 17.8886 & -12.24\% & 0.8133 & -7.13\% & 0.2652 & 35.51\% \\
+PnS Red Channel 5 & 20.4067 & 0.12\% & 0.8573 & -2.10\% & 0.2102 & 7.42\% \\
+\hline
+\end{tabular}}
+\end{table}

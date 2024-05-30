@@ -1,0 +1,17 @@
+{
+  "experiment_name": "lego-noise-std-32",
+  "method_name": "instant-ngp",
+  "checkpoint": "C:\\Stuff\\Dataset-creation\\notebooks\\outputs_ngp_lego_opt_on_degr\\lego-noise-std-32\\instant-ngp\\2024-03-25_083819\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 18.491840362548828,
+    "psnr_std": 3.122760057449341,
+    "ssim": 0.8276715278625488,
+    "ssim_std": 0.05954810604453087,
+    "lpips": 0.27915260195732117,
+    "lpips_std": 0.09783385694026947,
+    "num_rays_per_sec": 799632.625,
+    "num_rays_per_sec_std": 132404.5,
+    "fps": 1.249426007270813,
+    "fps_std": 0.20688201487064362
+  }
+}

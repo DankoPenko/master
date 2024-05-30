@@ -1,0 +1,17 @@
+{
+  "experiment_name": "lego-every-8",
+  "method_name": "instant-ngp",
+  "checkpoint": "C:\\Stuff\\Dataset-creation\\notebooks\\outputs_ngp_lego_opt_off_degr\\lego-every-8\\instant-ngp\\2024-03-25_054907\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 9.61518383026123,
+    "psnr_std": 1.6672923564910889,
+    "ssim": 0.49781835079193115,
+    "ssim_std": 0.09632360190153122,
+    "lpips": 0.6871219873428345,
+    "lpips_std": 0.11190158128738403,
+    "num_rays_per_sec": 561851.6875,
+    "num_rays_per_sec_std": 38075.5234375,
+    "fps": 0.8778932690620422,
+    "fps_std": 0.05949300527572632
+  }
+}

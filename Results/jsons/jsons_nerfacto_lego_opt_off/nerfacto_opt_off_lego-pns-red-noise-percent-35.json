@@ -1,0 +1,17 @@
+{
+  "experiment_name": "lego-pns-red-noise-percent-35",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs\\lego-pns-red-noise-percent-35\\nerfacto\\2024-03-17_024459\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 19.64021110534668,
+    "psnr_std": 0.9708014130592346,
+    "ssim": 0.7978861331939697,
+    "ssim_std": 0.033887092024087906,
+    "lpips": 0.15565654635429382,
+    "lpips_std": 0.014461467042565346,
+    "num_rays_per_sec": 762624.75,
+    "num_rays_per_sec_std": 44114.67578125,
+    "fps": 1.1916011571884155,
+    "fps_std": 0.06892918050289154
+  }
+}

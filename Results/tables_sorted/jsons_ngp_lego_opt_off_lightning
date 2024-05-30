@@ -1,0 +1,29 @@
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Lightning degradations. Instant-NGP model is used. Camera optimizer is disabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.0421 & - & 0.8885 & - & 0.1659 & - \\
+\hline
+Gamma Correction 5 & 20.8107 & -1.10\% & 0.8827 & -0.66\% & 0.1781 & 7.34\% \\
+Gamma Correction 10 & 19.9454 & -5.21\% & 0.8625 & -2.92\% & 0.2068 & 24.70\% \\
+Gamma Correction 15 & 19.9285 & -5.29\% & 0.8636 & -2.80\% & 0.2130 & 28.41\% \\
+Gamma Correction 20 & 20.2157 & -3.93\% & 0.8662 & -2.51\% & 0.2033 & 22.53\% \\
+Gamma Correction 25 & 20.4601 & -2.77\% & 0.8692 & -2.17\% & 0.1933 & 16.55\% \\
+Gamma Correction 30 & 20.3151 & -3.45\% & 0.8839 & -0.52\% & 0.1724 & 3.96\% \\
+Gamma Correction 35 & 19.0518 & -9.46\% & 0.8502 & -4.31\% & 0.2251 & 35.70\% \\
+Gamma Correction 40 & 18.3303 & -12.89\% & 0.8361 & -5.90\% & 0.2152 & 29.75\% \\
+\hline
+Saturation Change 0.1 & 21.0999 & 0.27\% & 0.8881 & -0.04\% & 0.1694 & 2.13\% \\
+Saturation Change 0.2 & 20.8925 & -0.71\% & 0.8841 & -0.50\% & 0.1780 & 7.29\% \\
+Saturation Change 0.3 & 21.5140 & 2.24\% & 0.8968 & 0.94\% & 0.1500 & -9.57\% \\
+Saturation Change 0.4 & 20.7447 & -1.41\% & 0.8954 & 0.78\% & 0.1406 & -15.21\% \\
+Saturation Change 0.5 & 20.8768 & -0.79\% & 0.8901 & 0.19\% & 0.1485 & -10.46\% \\
+Saturation Change 0.6 & 20.8998 & -0.68\% & 0.8926 & 0.46\% & 0.1453 & -12.42\% \\
+Saturation Change 0.7 & 19.8907 & -5.47\% & 0.8786 & -1.11\% & 0.1629 & -1.78\% \\
+Saturation Change 0.8 & 20.9154 & -0.60\% & 0.8957 & 0.81\% & 0.1335 & -19.50\% \\
+Saturation Change 0.9 & 20.1550 & -4.22\% & 0.8859 & -0.29\% & 0.1533 & -7.56\% \\
+Saturation Change 1.0 & 20.5214 & -2.47\% & 0.8827 & -0.65\% & 0.1706 & 2.88\% \\
+\hline
+\end{tabular}}
+\end{table}

@@ -1,0 +1,17 @@
+{
+  "experiment_name": "lego",
+  "method_name": "nerfacto",
+  "checkpoint": "/content/drive/MyDrive/master/outputs_nerfacto_opt_on/lego/nerfacto/2024-03-03_062605/nerfstudio_models/step-000014999.ckpt",
+  "results": {
+    "psnr": 21.83009910583496,
+    "psnr_std": 1.965301275253296,
+    "ssim": 0.8299302458763123,
+    "ssim_std": 0.03163563460111618,
+    "lpips": 0.1005457267165184,
+    "lpips_std": 0.021381953731179237,
+    "num_rays_per_sec": 270936.40625,
+    "num_rays_per_sec_std": 4629.458984375,
+    "fps": 0.4233381450176239,
+    "fps_std": 0.007233529817312956
+  }
+}

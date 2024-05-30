@@ -1,0 +1,17 @@
+{
+  "experiment_name": "stump-pns-blue-noise-percent-25",
+  "method_name": "instant-ngp",
+  "checkpoint": "outputs\\stump-pns-blue-noise-percent-25\\instant-ngp\\2024-02-29_072943\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 19.783584594726562,
+    "psnr_std": 1.0174381732940674,
+    "ssim": 0.6060695052146912,
+    "ssim_std": 0.04727231338620186,
+    "lpips": 0.5961313247680664,
+    "lpips_std": 0.026936965063214302,
+    "num_rays_per_sec": 156770.8125,
+    "num_rays_per_sec_std": 83311.8046875,
+    "fps": 0.026058977469801903,
+    "fps_std": 0.013848370872437954
+  }
+}

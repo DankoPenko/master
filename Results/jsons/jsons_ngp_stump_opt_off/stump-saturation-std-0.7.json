@@ -1,0 +1,17 @@
+{
+  "experiment_name": "stump-saturation-std-0",
+  "method_name": "instant-ngp",
+  "checkpoint": "outputs_missing_ngp_opt_off\\stump-saturation-std-0\\instant-ngp\\2024-03-18_230914\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 21.245067596435547,
+    "psnr_std": 1.4975570440292358,
+    "ssim": 0.6408289670944214,
+    "ssim_std": 0.04346737638115883,
+    "lpips": 0.5155715942382812,
+    "lpips_std": 0.02980339527130127,
+    "num_rays_per_sec": 93210.609375,
+    "num_rays_per_sec_std": 40276.9375,
+    "fps": 0.01549378503113985,
+    "fps_std": 0.006694969721138477
+  }
+}

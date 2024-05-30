@@ -1,0 +1,17 @@
+{
+  "experiment_name": "lego-gamma-5",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs\\lego-gamma-5\\nerfacto\\2024-03-10_025947\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 20.958942413330078,
+    "psnr_std": 1.812364935874939,
+    "ssim": 0.8039361834526062,
+    "ssim_std": 0.0374259278178215,
+    "lpips": 0.10938607901334763,
+    "lpips_std": 0.03415316343307495,
+    "num_rays_per_sec": 768366.375,
+    "num_rays_per_sec_std": 44333.1875,
+    "fps": 1.2005724906921387,
+    "fps_std": 0.06927060335874557
+  }
+}

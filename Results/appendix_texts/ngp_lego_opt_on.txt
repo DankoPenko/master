@@ -1,0 +1,421 @@
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/benchmark-ngp-lego-opt-on-000000-img.jpg} 
+        \caption{321}
+        \label{fig:benchmark-ngp-lego-opt-on-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/benchmark-ngp-lego-opt-on-000000-img.jpg} 
+        \caption{321}
+        \label{fig:benchmark-ngp-lego-opt-on-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/benchmark-ngp-lego-opt-on-000000-img.jpg} 
+        \caption{321}
+        \label{fig:benchmark-ngp-lego-opt-on-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/benchmark-ngp-lego-opt-on-000000-img.jpg} 
+        \caption{321}
+        \label{fig:benchmark-ngp-lego-opt-on-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/benchmark-ngp-lego-opt-on-000000-img.jpg} 
+        \caption{321}
+        \label{fig:benchmark-ngp-lego-opt-on-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the benchmark-ngp-lego-opt folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/lego-orientation-std-0.005-000000-img.jpg} 
+        \caption{0.005}
+        \label{fig:lego-orientation-std-0.005-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/lego-orientation-std-0.02-000000-img.jpg} 
+        \caption{0.02}
+        \label{fig:lego-orientation-std-0.02-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/lego-orientation-std-0.035-000000-img.jpg} 
+        \caption{0.035}
+        \label{fig:lego-orientation-std-0.035-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/lego-orientation-std-0.05-000000-img.jpg} 
+        \caption{0.05}
+        \label{fig:lego-orientation-std-0.05-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/lego-orientation-std-0.06-000000-img.jpg} 
+        \caption{0.06}
+        \label{fig:lego-orientation-std-0.06-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the lego-orientation-std folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/lego-pos-orient-std-0.005-000000-img.jpg} 
+        \caption{0.005}
+        \label{fig:lego-pos-orient-std-0.005-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/lego-pos-orient-std-0.02-000000-img.jpg} 
+        \caption{0.02}
+        \label{fig:lego-pos-orient-std-0.02-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/lego-pos-orient-std-0.035-000000-img.jpg} 
+        \caption{0.035}
+        \label{fig:lego-pos-orient-std-0.035-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/lego-pos-orient-std-0.05-000000-img.jpg} 
+        \caption{0.05}
+        \label{fig:lego-pos-orient-std-0.05-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/lego-pos-orient-std-0.06-000000-img.jpg} 
+        \caption{0.06}
+        \label{fig:lego-pos-orient-std-0.06-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the lego-pos-orient-std folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/lego-position-std-0.005-000000-img.jpg} 
+        \caption{0.005}
+        \label{fig:lego-position-std-0.005-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/lego-position-std-0.02-000000-img.jpg} 
+        \caption{0.02}
+        \label{fig:lego-position-std-0.02-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/lego-position-std-0.035-000000-img.jpg} 
+        \caption{0.035}
+        \label{fig:lego-position-std-0.035-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/lego-position-std-0.05-000000-img.jpg} 
+        \caption{0.05}
+        \label{fig:lego-position-std-0.05-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/lego-position-std-0.06-000000-img.jpg} 
+        \caption{0.06}
+        \label{fig:lego-position-std-0.06-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the lego-position-std folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-every-2-000000-img.jpg} 
+        \caption{2}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-every-2-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-every-3-000000-img.jpg} 
+        \caption{3}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-every-3-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-every-5-000000-img.jpg} 
+        \caption{5}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-every-5-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-every-6-000000-img.jpg} 
+        \caption{6}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-every-6-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-every-8-000000-img.jpg} 
+        \caption{8}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-every-8-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the ngp_lego_opt_on_degr_runs_lego-every folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-gamma-5-000000-img.jpg} 
+        \caption{5}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-gamma-5-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-gamma-10-000000-img.jpg} 
+        \caption{10}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-gamma-10-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-gamma-20-000000-img.jpg} 
+        \caption{20}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-gamma-20-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-gamma-30-000000-img.jpg} 
+        \caption{30}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-gamma-30-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-gamma-40-000000-img.jpg} 
+        \caption{40}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-gamma-40-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the ngp_lego_opt_on_degr_runs_lego-gamma folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-noise-std-16-000000-img.jpg} 
+        \caption{16}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-noise-std-16-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-noise-std-32-000000-img.jpg} 
+        \caption{32}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-noise-std-32-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-noise-std-64-000000-img.jpg} 
+        \caption{64}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-noise-std-64-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-noise-std-96-000000-img.jpg} 
+        \caption{96}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-noise-std-96-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-noise-std-128-000000-img.jpg} 
+        \caption{128}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-noise-std-128-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the ngp_lego_opt_on_degr_runs_lego-noise-std folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-pns-blue-noise-percent-5-000000-img.jpg} 
+        \caption{5}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-pns-blue-noise-percent-5-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-pns-blue-noise-percent-10-000000-img.jpg} 
+        \caption{10}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-pns-blue-noise-percent-10-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-pns-blue-noise-percent-20-000000-img.jpg} 
+        \caption{20}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-pns-blue-noise-percent-20-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-pns-blue-noise-percent-30-000000-img.jpg} 
+        \caption{30}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-pns-blue-noise-percent-30-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-pns-blue-noise-percent-40-000000-img.jpg} 
+        \caption{40}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-pns-blue-noise-percent-40-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the ngp_lego_opt_on_degr_runs_lego-pns-blue-noise-percent folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-pns-green-noise-percent-5-000000-img.jpg} 
+        \caption{5}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-pns-green-noise-percent-5-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-pns-green-noise-percent-10-000000-img.jpg} 
+        \caption{10}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-pns-green-noise-percent-10-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-pns-green-noise-percent-20-000000-img.jpg} 
+        \caption{20}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-pns-green-noise-percent-20-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-pns-green-noise-percent-30-000000-img.jpg} 
+        \caption{30}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-pns-green-noise-percent-30-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-pns-green-noise-percent-40-000000-img.jpg} 
+        \caption{40}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-pns-green-noise-percent-40-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the ngp_lego_opt_on_degr_runs_lego-pns-green-noise-percent folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-pns-red-noise-percent-5-000000-img.jpg} 
+        \caption{5}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-pns-red-noise-percent-5-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-pns-red-noise-percent-10-000000-img.jpg} 
+        \caption{10}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-pns-red-noise-percent-10-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-pns-red-noise-percent-20-000000-img.jpg} 
+        \caption{20}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-pns-red-noise-percent-20-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-pns-red-noise-percent-30-000000-img.jpg} 
+        \caption{30}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-pns-red-noise-percent-30-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/ngp_lego_opt_on_degr_runs_lego-pns-red-noise-percent-40-000000-img.jpg} 
+        \caption{40}
+        \label{fig:ngp_lego_opt_on_degr_runs_lego-pns-red-noise-percent-40-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the ngp_lego_opt_on_degr_runs_lego-pns-red-noise-percent folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/outputs-ngp-lego-opt-on-satur-range_lego-range-10-000000-img.jpg} 
+        \caption{10}
+        \label{fig:outputs-ngp-lego-opt-on-satur-range_lego-range-10-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/outputs-ngp-lego-opt-on-satur-range_lego-range-30-000000-img.jpg} 
+        \caption{30}
+        \label{fig:outputs-ngp-lego-opt-on-satur-range_lego-range-30-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/outputs-ngp-lego-opt-on-satur-range_lego-range-50-000000-img.jpg} 
+        \caption{50}
+        \label{fig:outputs-ngp-lego-opt-on-satur-range_lego-range-50-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/outputs-ngp-lego-opt-on-satur-range_lego-range-70-000000-img.jpg} 
+        \caption{70}
+        \label{fig:outputs-ngp-lego-opt-on-satur-range_lego-range-70-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/outputs-ngp-lego-opt-on-satur-range_lego-range-100-000000-img.jpg} 
+        \caption{100}
+        \label{fig:outputs-ngp-lego-opt-on-satur-range_lego-range-100-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the outputs-ngp-lego-opt-on-satur-range_lego-range folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/outputs-ngp-lego-opt-on-satur-range_lego-saturation-std-0.1-000000-img.jpg} 
+        \caption{0.1}
+        \label{fig:outputs-ngp-lego-opt-on-satur-range_lego-saturation-std-0.1-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/outputs-ngp-lego-opt-on-satur-range_lego-saturation-std-0.3-000000-img.jpg} 
+        \caption{0.3}
+        \label{fig:outputs-ngp-lego-opt-on-satur-range_lego-saturation-std-0.3-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/outputs-ngp-lego-opt-on-satur-range_lego-saturation-std-0.5-000000-img.jpg} 
+        \caption{0.5}
+        \label{fig:outputs-ngp-lego-opt-on-satur-range_lego-saturation-std-0.5-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/outputs-ngp-lego-opt-on-satur-range_lego-saturation-std-0.7-000000-img.jpg} 
+        \caption{0.7}
+        \label{fig:outputs-ngp-lego-opt-on-satur-range_lego-saturation-std-0.7-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/ngp_lego_opt_on/outputs-ngp-lego-opt-on-satur-range_lego-saturation-std-1.0-000000-img.jpg} 
+        \caption{1}
+        \label{fig:outputs-ngp-lego-opt-on-satur-range_lego-saturation-std-1.0-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the outputs-ngp-lego-opt-on-satur-range_lego-saturation-std folder.}
+\end{figure}
+%====================================% 

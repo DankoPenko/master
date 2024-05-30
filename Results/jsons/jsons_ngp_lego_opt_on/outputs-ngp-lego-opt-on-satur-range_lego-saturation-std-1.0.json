@@ -1,0 +1,17 @@
+{
+  "experiment_name": "lego-saturation-std-1",
+  "method_name": "instant-ngp",
+  "checkpoint": "outputs-ngp-lego-opt-on-satur-range\\lego-saturation-std-1\\instant-ngp\\2024-03-18_141628\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 20.6433048248291,
+    "psnr_std": 4.479161739349365,
+    "ssim": 0.8842528462409973,
+    "ssim_std": 0.05069008097052574,
+    "lpips": 0.16118185222148895,
+    "lpips_std": 0.0835086926817894,
+    "num_rays_per_sec": 920284.875,
+    "num_rays_per_sec_std": 178831.109375,
+    "fps": 1.4379451274871826,
+    "fps_std": 0.27942362427711487
+  }
+}

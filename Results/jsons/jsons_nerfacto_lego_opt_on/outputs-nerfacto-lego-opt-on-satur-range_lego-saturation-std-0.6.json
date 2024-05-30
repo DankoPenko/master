@@ -1,0 +1,17 @@
+{
+  "experiment_name": "lego-saturation-std-0",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs-nerfacto-lego-opt-on-satur-range\\lego-saturation-std-0\\nerfacto\\2024-03-18_025654\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 20.10559844970703,
+    "psnr_std": 1.396740198135376,
+    "ssim": 0.7813979983329773,
+    "ssim_std": 0.04068215936422348,
+    "lpips": 0.12562794983386993,
+    "lpips_std": 0.03801334276795387,
+    "num_rays_per_sec": 740773.75,
+    "num_rays_per_sec_std": 48235.37109375,
+    "fps": 1.1574589014053345,
+    "fps_std": 0.075367771089077
+  }
+}

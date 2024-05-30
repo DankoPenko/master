@@ -1,0 +1,17 @@
+{
+  "experiment_name": "stump-noise-std-16",
+  "method_name": "instant-ngp",
+  "checkpoint": "outputs\\stump-noise-std-16\\instant-ngp\\2024-02-29_061932\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 21.177717208862305,
+    "psnr_std": 1.6254204511642456,
+    "ssim": 0.6277222037315369,
+    "ssim_std": 0.0474834218621254,
+    "lpips": 0.52833491563797,
+    "lpips_std": 0.032130688428878784,
+    "num_rays_per_sec": 145015.5,
+    "num_rays_per_sec_std": 81326.53125,
+    "fps": 0.024104971438646317,
+    "fps_std": 0.013518373481929302
+  }
+}

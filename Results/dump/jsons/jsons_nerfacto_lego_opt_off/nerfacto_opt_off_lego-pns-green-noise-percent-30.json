@@ -1,0 +1,17 @@
+{
+  "experiment_name": "lego-pns-green-noise-percent-30",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs\\lego-pns-green-noise-percent-30\\nerfacto\\2024-03-17_015528\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 19.905086517333984,
+    "psnr_std": 1.1968501806259155,
+    "ssim": 0.7887439727783203,
+    "ssim_std": 0.03660346567630768,
+    "lpips": 0.16764558851718903,
+    "lpips_std": 0.016303934156894684,
+    "num_rays_per_sec": 762372.3125,
+    "num_rays_per_sec_std": 47455.609375,
+    "fps": 1.191206693649292,
+    "fps_std": 0.07414939254522324
+  }
+}

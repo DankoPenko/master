@@ -1,0 +1,17 @@
+{
+  "experiment_name": "lego-pns-blue-noise-percent-30",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs\\lego-pns-blue-noise-percent-30\\nerfacto\\2024-03-17_011059\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 20.221046447753906,
+    "psnr_std": 1.6565849781036377,
+    "ssim": 0.7865010499954224,
+    "ssim_std": 0.04283537343144417,
+    "lpips": 0.129079669713974,
+    "lpips_std": 0.0237176101654768,
+    "num_rays_per_sec": 763623.0,
+    "num_rays_per_sec_std": 47295.5234375,
+    "fps": 1.1931610107421875,
+    "fps_std": 0.07389925420284271
+  }
+}

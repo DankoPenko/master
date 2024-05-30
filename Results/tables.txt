@@ -1,0 +1,1334 @@
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Camera noise degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 22.7211 & - & 0.8978 & - & 0.1081 & - \\
+\hline
+Orientation Noise 0.005 & 15.9131 & -29.96\% & 0.7047 & -21.51\% & 0.3109 & 187.57\% \\
+Orientation Noise 0.01 & 10.8351 & -52.31\% & 0.6463 & -28.02\% & 0.4528 & 318.76\% \\
+Orientation Noise 0.015 & 9.7306 & -57.17\% & 0.6584 & -26.67\% & 0.4798 & 343.79\% \\
+Orientation Noise 0.02 & 8.6977 & -61.72\% & 0.6261 & -30.27\% & 0.5315 & 391.61\% \\
+Orientation Noise 0.025 & 9.1537 & -59.71\% & 0.6987 & -22.18\% & 0.4970 & 359.64\% \\
+Orientation Noise 0.03 & 8.7506 & -61.49\% & 0.6626 & -26.20\% & 0.5514 & 409.97\% \\
+Orientation Noise 0.035 & 8.7722 & -61.39\% & 0.6603 & -26.45\% & 0.5777 & 434.27\% \\
+Orientation Noise 0.04 & 8.8555 & -61.03\% & 0.6738 & -24.95\% & 0.5735 & 430.38\% \\
+Orientation Noise 0.045 & 8.8045 & -61.25\% & 0.6302 & -29.81\% & 0.6348 & 487.11\% \\
+Orientation Noise 0.05 & 9.1590 & -59.69\% & 0.6917 & -22.96\% & 0.5698 & 427.02\% \\
+Orientation Noise 0.0525 & 9.3422 & -58.88\% & 0.7052 & -21.45\% & 0.5459 & 404.89\% \\
+Orientation Noise 0.055 & 9.1383 & -59.78\% & 0.6830 & -23.93\% & 0.5704 & 427.55\% \\
+Orientation Noise 0.0575 & 9.5367 & -58.03\% & 0.7150 & -20.37\% & 0.5261 & 386.59\% \\
+Orientation Noise 0.06 & 9.2853 & -59.13\% & 0.6917 & -22.96\% & 0.5762 & 432.92\% \\
+\hline
+Combined Noise 0.005 & 15.2469 & -32.90\% & 0.6948 & -22.61\% & 0.3221 & 197.88\% \\
+Combined Noise 0.01 & 10.7782 & -52.56\% & 0.6550 & -27.05\% & 0.4580 & 323.55\% \\
+Combined Noise 0.015 & 9.1405 & -59.77\% & 0.6362 & -29.14\% & 0.5158 & 377.01\% \\
+Combined Noise 0.02 & 8.6140 & -62.09\% & 0.6401 & -28.71\% & 0.5480 & 406.81\% \\
+Combined Noise 0.025 & 9.1303 & -59.82\% & 0.6871 & -23.47\% & 0.5228 & 383.56\% \\
+Combined Noise 0.03 & 9.1083 & -59.91\% & 0.6938 & -22.73\% & 0.5342 & 394.05\% \\
+Combined Noise 0.035 & 8.8945 & -60.85\% & 0.6817 & -24.07\% & 0.5760 & 432.76\% \\
+Combined Noise 0.04 & 8.9550 & -60.59\% & 0.6677 & -25.63\% & 0.5836 & 439.79\% \\
+Combined Noise 0.045 & 9.3120 & -59.02\% & 0.7001 & -22.03\% & 0.5539 & 412.28\% \\
+Combined Noise 0.05 & 9.0749 & -60.06\% & 0.6926 & -22.86\% & 0.5500 & 408.67\% \\
+Combined Noise 0.0525 & 9.2081 & -59.47\% & 0.7056 & -21.41\% & 0.5177 & 378.85\% \\
+Combined Noise 0.055 & 9.1102 & -59.90\% & 0.6911 & -23.03\% & 0.5505 & 409.18\% \\
+Combined Noise 0.0575 & 9.0590 & -60.13\% & 0.7033 & -21.67\% & 0.5429 & 402.08\% \\
+Combined Noise 0.06 & 9.2888 & -59.12\% & 0.7093 & -21.00\% & 0.5314 & 391.49\% \\
+\hline
+Positional Noise 0.005 & 22.0628 & -2.90\% & 0.8404 & -6.40\% & 0.1586 & 46.72\% \\
+Positional Noise 0.01 & 19.5895 & -13.78\% & 0.7717 & -14.04\% & 0.2266 & 109.58\% \\
+Positional Noise 0.015 & 17.9458 & -21.02\% & 0.7348 & -18.16\% & 0.2699 & 149.65\% \\
+Positional Noise 0.02 & 16.0823 & -29.22\% & 0.7000 & -22.03\% & 0.3223 & 198.06\% \\
+Positional Noise 0.025 & 15.0428 & -33.79\% & 0.6827 & -23.96\% & 0.3565 & 229.76\% \\
+Positional Noise 0.03 & 13.4193 & -40.94\% & 0.6617 & -26.30\% & 0.3992 & 269.21\% \\
+Positional Noise 0.035 & 12.7494 & -43.89\% & 0.6644 & -26.00\% & 0.4008 & 270.64\% \\
+Positional Noise 0.04 & 11.7127 & -48.45\% & 0.6531 & -27.26\% & 0.4275 & 295.39\% \\
+Positional Noise 0.045 & 11.1237 & -51.04\% & 0.6764 & -24.66\% & 0.4293 & 297.04\% \\
+Positional Noise 0.05 & 10.3730 & -54.35\% & 0.6639 & -26.05\% & 0.4550 & 320.80\% \\
+Positional Noise 0.0525 & 10.1346 & -55.40\% & 0.6581 & -26.70\% & 0.4740 & 338.41\% \\
+Positional Noise 0.055 & 9.8319 & -56.73\% & 0.6481 & -27.82\% & 0.4772 & 341.36\% \\
+Positional Noise 0.0575 & 9.2857 & -59.13\% & 0.6230 & -30.61\% & 0.5062 & 368.16\% \\
+Positional Noise 0.06 & 9.6247 & -57.64\% & 0.6582 & -26.69\% & 0.4970 & 359.65\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Color noise degradations. Nerfacto model is used. Camera optimizer is disabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 22.7211 & - & 0.8978 & - & 0.1081 & - \\
+\hline
+PnS Blue Channel 5 & 20.9781 & -7.67\% & 0.7930 & -11.68\% & 0.1102 & 1.94\% \\
+PnS Blue Channel 10 & 20.6203 & -9.25\% & 0.7900 & -12.01\% & 0.1187 & 9.75\% \\
+PnS Blue Channel 15 & 20.9647 & -7.73\% & 0.7953 & -11.41\% & 0.1140 & 5.46\% \\
+PnS Blue Channel 20 & 20.3803 & -10.30\% & 0.7844 & -12.63\% & 0.1224 & 13.21\% \\
+PnS Blue Channel 25 & 20.3666 & -10.36\% & 0.7872 & -12.32\% & 0.1200 & 10.97\% \\
+PnS Blue Channel 30 & 20.2210 & -11.00\% & 0.7865 & -12.40\% & 0.1291 & 19.38\% \\
+PnS Blue Channel 35 & 20.1313 & -11.40\% & 0.7915 & -11.84\% & 0.1346 & 24.49\% \\
+PnS Blue Channel 40 & 20.2812 & -10.74\% & 0.7922 & -11.76\% & 0.1322 & 22.24\% \\
+\hline
+PnS Green Channel 5 & 21.1890 & -6.74\% & 0.8027 & -10.60\% & 0.1181 & 9.23\% \\
+PnS Green Channel 10 & 21.5677 & -5.08\% & 0.8128 & -9.47\% & 0.1132 & 4.71\% \\
+PnS Green Channel 15 & 21.0722 & -7.26\% & 0.8107 & -9.70\% & 0.1324 & 22.44\% \\
+PnS Green Channel 20 & 20.8064 & -8.43\% & 0.7933 & -11.64\% & 0.1504 & 39.07\% \\
+PnS Green Channel 25 & 20.4071 & -10.18\% & 0.7882 & -12.21\% & 0.1574 & 45.60\% \\
+PnS Green Channel 30 & 19.9051 & -12.39\% & 0.7887 & -12.15\% & 0.1676 & 55.05\% \\
+PnS Green Channel 35 & 19.8359 & -12.70\% & 0.7913 & -11.86\% & 0.1769 & 63.62\% \\
+PnS Green Channel 40 & 19.9731 & -12.09\% & 0.7991 & -11.00\% & 0.1822 & 68.54\% \\
+\hline
+Image Noise 16 & 19.1705 & -15.63\% & 0.8122 & -9.54\% & 0.2239 & 107.09\% \\
+Image Noise 32 & 18.0602 & -20.51\% & 0.7536 & -16.06\% & 0.3149 & 191.27\% \\
+Image Noise 48 & 17.4892 & -23.03\% & 0.7852 & -12.55\% & 0.2668 & 146.76\% \\
+Image Noise 64 & 16.4497 & -27.60\% & 0.7196 & -19.86\% & 0.3586 & 231.62\% \\
+Image Noise 80 & 15.3651 & -32.38\% & 0.6919 & -22.94\% & 0.4281 & 295.94\% \\
+Image Noise 96 & 14.6345 & -35.59\% & 0.6891 & -23.24\% & 0.4477 & 314.03\% \\
+Image Noise 112 & 13.7110 & -39.66\% & 0.7106 & -20.85\% & 0.4434 & 310.12\% \\
+Image Noise 128 & 13.6024 & -40.13\% & 0.6432 & -28.36\% & 0.5487 & 407.48\% \\
+\hline
+PnS Red Channel 5 & 21.2297 & -6.56\% & 0.7988 & -11.04\% & 0.1101 & 1.87\% \\
+PnS Red Channel 10 & 20.6375 & -9.17\% & 0.7882 & -12.22\% & 0.1256 & 16.17\% \\
+PnS Red Channel 15 & 20.0606 & -11.71\% & 0.7791 & -13.22\% & 0.1284 & 18.77\% \\
+PnS Red Channel 20 & 20.6216 & -9.24\% & 0.8003 & -10.87\% & 0.1324 & 22.41\% \\
+PnS Red Channel 25 & 20.2349 & -10.94\% & 0.7994 & -10.97\% & 0.1486 & 37.41\% \\
+PnS Red Channel 30 & 19.8850 & -12.48\% & 0.7913 & -11.87\% & 0.1533 & 41.79\% \\
+PnS Red Channel 35 & 19.6402 & -13.56\% & 0.7979 & -11.13\% & 0.1557 & 43.96\% \\
+PnS Red Channel 40 & 18.2023 & -19.89\% & 0.7703 & -14.20\% & 0.2052 & 89.78\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[hb]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Color noise degradations. Nerfacto model is used. Camera optimizer is disabled.}
+\begin{tabular}{c|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR \% & SSIM & Rel. SSIM \% & LPIPS & Rel. LPIPS \% \\
+\hline
+PnS Blue Channel 10 & 20.6203 & -9.25\% & 0.7900 & -12.01\% & 0.1187 & 9.75\% \\
+PnS Blue Channel 15 & 20.9647 & -7.73\% & 0.7953 & -11.41\% & 0.1140 & 5.46\% \\
+PnS Blue Channel 20 & 20.3803 & -10.30\% & 0.7844 & -12.63\% & 0.1224 & 13.21\% \\
+PnS Blue Channel 25 & 20.3666 & -10.36\% & 0.7872 & -12.32\% & 0.1200 & 10.97\% \\
+PnS Blue Channel 30 & 20.2210 & -11.00\% & 0.7865 & -12.40\% & 0.1291 & 19.38\% \\
+PnS Blue Channel 35 & 20.1313 & -11.40\% & 0.7915 & -11.84\% & 0.1346 & 24.49\% \\
+PnS Blue Channel 40 & 20.2812 & -10.74\% & 0.7922 & -11.76\% & 0.1322 & 22.24\% \\
+PnS Blue Channel 5 & 20.9781 & -7.67\% & 0.7930 & -11.68\% & 0.1102 & 1.94\% \\
+\hline
+PnS Green Channel 5 & 21.1890 & -6.74\% & 0.8027 & -10.60\% & 0.1181 & 9.23\% \\
+PnS Green Channel 10 & 21.5677 & -5.08\% & 0.8128 & -9.47\% & 0.1132 & 4.71\% \\
+PnS Green Channel 15 & 21.0722 & -7.26\% & 0.8107 & -9.70\% & 0.1324 & 22.44\% \\
+PnS Green Channel 20 & 20.8064 & -8.43\% & 0.7933 & -11.64\% & 0.1504 & 39.07\% \\
+PnS Green Channel 25 & 20.4071 & -10.18\% & 0.7882 & -12.21\% & 0.1574 & 45.60\% \\
+PnS Green Channel 30 & 19.9051 & -12.39\% & 0.7887 & -12.15\% & 0.1676 & 55.05\% \\
+PnS Green Channel 35 & 19.8359 & -12.70\% & 0.7913 & -11.86\% & 0.1769 & 63.62\% \\
+PnS Green Channel 40 & 19.9731 & -12.09\% & 0.7991 & -11.00\% & 0.1822 & 68.54\% \\
+\hline
+Image Noise 16 & 19.1705 & -15.63\% & 0.8122 & -9.54\% & 0.2239 & 107.09\% \\
+Image Noise 32 & 18.0602 & -20.51\% & 0.7536 & -16.06\% & 0.3149 & 191.27\% \\
+Image Noise 48 & 17.4892 & -23.03\% & 0.7852 & -12.55\% & 0.2668 & 146.76\% \\
+Image Noise 64 & 16.4497 & -27.60\% & 0.7196 & -19.86\% & 0.3586 & 231.62\% \\
+Image Noise 80 & 15.3651 & -32.38\% & 0.6919 & -22.94\% & 0.4281 & 295.94\% \\
+Image Noise 96 & 14.6345 & -35.59\% & 0.6891 & -23.24\% & 0.4477 & 314.03\% \\
+Image Noise 112 & 13.7110 & -39.66\% & 0.7106 & -20.85\% & 0.4434 & 310.12\% \\
+Image Noise 128 & 13.6024 & -40.13\% & 0.6432 & -28.36\% & 0.5487 & 407.48\% \\
+\hline
+PnS Red Channel 5 & 21.2297 & -6.56\% & 0.7988 & -11.04\% & 0.1101 & 1.87\% \\
+PnS Red Channel 10 & 20.6375 & -9.17\% & 0.7882 & -12.22\% & 0.1256 & 16.17\% \\
+PnS Red Channel 15 & 20.0606 & -11.71\% & 0.7791 & -13.22\% & 0.1284 & 18.77\% \\
+PnS Red Channel 20 & 20.6216 & -9.24\% & 0.8003 & -10.87\% & 0.1324 & 22.41\% \\
+PnS Red Channel 25 & 20.2349 & -10.94\% & 0.7994 & -10.97\% & 0.1486 & 37.41\% \\
+PnS Red Channel 30 & 19.8850 & -12.48\% & 0.7913 & -11.87\% & 0.1533 & 41.79\% \\
+PnS Red Channel 35 & 19.6402 & -13.56\% & 0.7979 & -11.13\% & 0.1557 & 43.96\% \\
+PnS Red Channel 40 & 18.2023 & -19.89\% & 0.7703 & -14.20\% & 0.2052 & 89.78\% \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Lightning degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 22.7211 & - & 0.8978 & - & 0.1081 & - \\
+\hline
+Gamma Correction 5 & 22.7463 & 0.11\% & 0.8955 & -0.26\% & 0.1189 & 9.92\% \\
+Gamma Correction 10 & 21.6343 & -4.78\% & 0.8759 & -2.44\% & 0.1397 & 29.23\% \\
+Gamma Correction 15 & 21.5043 & -5.35\% & 0.8805 & -1.93\% & 0.1403 & 29.79\% \\
+Gamma Correction 20 & 22.1030 & -2.72\% & 0.8907 & -0.79\% & 0.1135 & 4.99\% \\
+Gamma Correction 25 & 22.0556 & -2.93\% & 0.8709 & -3.00\% & 0.1551 & 43.49\% \\
+Gamma Correction 30 & 19.0653 & -16.09\% & 0.8222 & -8.42\% & 0.2506 & 131.74\% \\
+Gamma Correction 35 & 20.8435 & -8.26\% & 0.8639 & -3.78\% & 0.1578 & 45.96\% \\
+Gamma Correction 40 & 20.7597 & -8.63\% & 0.8643 & -3.73\% & 0.1391 & 28.67\% \\
+\hline
+Saturation Change 0.1 & 22.7394 & 0.08\% & 0.8989 & 0.12\% & 0.1024 & -5.30\% \\
+Saturation Change 0.2 & 22.8638 & 0.63\% & 0.9014 & 0.40\% & 0.1060 & -1.94\% \\
+Saturation Change 0.3 & 22.3777 & -1.51\% & 0.8946 & -0.36\% & 0.1141 & 5.49\% \\
+Saturation Change 0.4 & 22.3100 & -1.81\% & 0.8919 & -0.66\% & 0.1159 & 7.19\% \\
+Saturation Change 0.5 & 22.7656 & 0.20\% & 0.9018 & 0.44\% & 0.0977 & -9.67\% \\
+Saturation Change 0.6 & 21.7770 & -4.16\% & 0.8871 & -1.20\% & 0.1226 & 13.39\% \\
+Saturation Change 0.7 & 21.9946 & -3.20\% & 0.8846 & -1.47\% & 0.1288 & 19.15\% \\
+Saturation Change 0.8 & 21.8538 & -3.82\% & 0.8794 & -2.05\% & 0.1367 & 26.40\% \\
+Saturation Change 0.9 & 21.1222 & -7.04\% & 0.8747 & -2.57\% & 0.1345 & 24.40\% \\
+Saturation Change 1.0 & 22.3543 & -1.61\% & 0.8874 & -1.16\% & 0.1185 & 9.59\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Reductions degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 22.7211 & - & 0.8978 & - & 0.1081 & - \\
+\hline
+Reduced Image Set 2 & 13.7698 & -39.40\% & 0.7794 & -13.20\% & 0.3121 & 188.65\% \\
+Reduced Image Set 3 & 8.8811 & -60.91\% & 0.6317 & -29.64\% & 0.6729 & 522.38\% \\
+Reduced Image Set 4 & 9.6842 & -57.38\% & 0.6519 & -27.40\% & 0.6399 & 491.85\% \\
+Reduced Image Set 5 & 9.6234 & -57.65\% & 0.6509 & -27.51\% & 0.7269 & 572.28\% \\
+Reduced Image Set 6 & 9.2167 & -59.44\% & 0.6630 & -26.16\% & 0.6914 & 539.44\% \\
+Reduced Image Set 7 & 9.8147 & -56.80\% & 0.6618 & -26.29\% & 0.6539 & 504.76\% \\
+Reduced Image Set 8 & 9.5751 & -57.86\% & 0.6693 & -25.45\% & 0.6298 & 482.47\% \\
+\hline
+Saturation Change 0.1 & 22.7394 & 0.08\% & 0.8989 & 0.12\% & 0.1024 & -5.30\% \\
+Saturation Change 0.2 & 22.8638 & 0.63\% & 0.9014 & 0.40\% & 0.1060 & -1.94\% \\
+Saturation Change 0.3 & 22.3777 & -1.51\% & 0.8946 & -0.36\% & 0.1141 & 5.49\% \\
+Saturation Change 0.4 & 22.3100 & -1.81\% & 0.8919 & -0.66\% & 0.1159 & 7.19\% \\
+Saturation Change 0.5 & 22.7656 & 0.20\% & 0.9018 & 0.44\% & 0.0977 & -9.67\% \\
+Saturation Change 0.6 & 21.7770 & -4.16\% & 0.8871 & -1.20\% & 0.1226 & 13.39\% \\
+Saturation Change 0.7 & 21.9946 & -3.20\% & 0.8846 & -1.47\% & 0.1288 & 19.15\% \\
+Saturation Change 0.8 & 21.8538 & -3.82\% & 0.8794 & -2.05\% & 0.1367 & 26.40\% \\
+Saturation Change 0.9 & 21.1222 & -7.04\% & 0.8747 & -2.57\% & 0.1345 & 24.40\% \\
+Saturation Change 1.0 & 22.3543 & -1.61\% & 0.8874 & -1.16\% & 0.1185 & 9.59\% \\
+Saturation Change 10 & 9.3575 & -58.82\% & 0.5670 & -36.85\% & 0.7739 & 615.77\% \\
+Saturation Change 20 & 9.3753 & -58.74\% & 0.6190 & -31.06\% & 0.7558 & 599.00\% \\
+Saturation Change 30 & 9.4120 & -58.58\% & 0.6593 & -26.56\% & 0.7363 & 580.94\% \\
+Saturation Change 40 & 9.4884 & -58.24\% & 0.5805 & -35.35\% & 0.7873 & 628.14\% \\
+Saturation Change 50 & 9.9443 & -56.23\% & 0.6032 & -32.82\% & 0.6653 & 515.32\% \\
+Saturation Change 60 & 9.7805 & -56.95\% & 0.6425 & -28.44\% & 0.6312 & 483.73\% \\
+Saturation Change 70 & 9.7982 & -56.88\% & 0.5657 & -36.99\% & 0.7231 & 568.73\% \\
+Saturation Change 80 & 9.9747 & -56.10\% & 0.5561 & -38.07\% & 0.6916 & 539.64\% \\
+Saturation Change 90 & 9.6212 & -57.66\% & 0.6653 & -25.90\% & 0.5605 & 418.35\% \\
+Saturation Change 100 & 12.0881 & -46.80\% & 0.5467 & -39.11\% & 0.6028 & 457.53\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Camera noise degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.4162 & - & 0.8151 & - & 0.0972 & - \\
+\hline
+Orientation Noise 0.005 & 21.1351 & -1.31\% & 0.8058 & -1.13\% & 0.1121 & 15.40\% \\
+Orientation Noise 0.01 & 21.0704 & -1.61\% & 0.7945 & -2.53\% & 0.1022 & 5.20\% \\
+Orientation Noise 0.015 & 21.8301 & 1.93\% & 0.8299 & 1.82\% & 0.1005 & 3.47\% \\
+Orientation Noise 0.02 & 22.2191 & 3.75\% & 0.8498 & 4.26\% & 0.1004 & 3.36\% \\
+Orientation Noise 0.025 & 21.0228 & -1.84\% & 0.8095 & -0.69\% & 0.1076 & 10.74\% \\
+Orientation Noise 0.03 & 18.6520 & -12.91\% & 0.7792 & -4.41\% & 0.1902 & 95.75\% \\
+Orientation Noise 0.035 & 13.9721 & -34.76\% & 0.7225 & -11.36\% & 0.3716 & 282.42\% \\
+Orientation Noise 0.04 & 9.9172 & -53.69\% & 0.6925 & -15.04\% & 0.5158 & 430.78\% \\
+Orientation Noise 0.045 & 8.7126 & -59.32\% & 0.6475 & -20.56\% & 0.5979 & 515.31\% \\
+Orientation Noise 0.05 & 8.1173 & -62.10\% & 0.5804 & -28.80\% & 0.6945 & 614.71\% \\
+Orientation Noise 0.0525 & 8.5403 & -60.12\% & 0.6531 & -19.87\% & 0.6190 & 537.03\% \\
+Orientation Noise 0.055 & 9.2422 & -56.84\% & 0.6895 & -15.40\% & 0.5741 & 490.82\% \\
+Orientation Noise 0.0575 & 9.1463 & -57.29\% & 0.6985 & -14.31\% & 0.5694 & 485.96\% \\
+Orientation Noise 0.06 & 9.4821 & -55.72\% & 0.7032 & -13.72\% & 0.5597 & 475.95\% \\
+\hline
+Combined Noise 0.005_nerfacto_opt_on & 21.6250 & 0.97\% & 0.8135 & -0.20\% & 0.1001 & 2.98\% \\
+Combined Noise 0.01 & 21.6868 & 1.26\% & 0.8194 & 0.53\% & 0.1026 & 5.57\% \\
+Combined Noise 0.015 & 21.7802 & 1.70\% & 0.8199 & 0.59\% & 0.1008 & 3.73\% \\
+Combined Noise 0.02 & 21.0399 & -1.76\% & 0.7943 & -2.55\% & 0.1131 & 16.35\% \\
+Combined Noise 0.025 & 20.4644 & -4.44\% & 0.7799 & -4.32\% & 0.1287 & 32.40\% \\
+Combined Noise 0.03 & 19.2692 & -10.03\% & 0.7773 & -4.63\% & 0.1526 & 57.07\% \\
+Combined Noise 0.035 & 11.7842 & -44.98\% & 0.6713 & -17.64\% & 0.4766 & 390.45\% \\
+Combined Noise 0.04 & 10.1265 & -52.72\% & 0.6897 & -15.39\% & 0.5035 & 418.15\% \\
+Combined Noise 0.045 & 9.1662 & -57.20\% & 0.6764 & -17.01\% & 0.5696 & 486.15\% \\
+Combined Noise 0.05 & 9.2631 & -56.75\% & 0.6942 & -14.83\% & 0.5652 & 481.57\% \\
+Combined Noise 0.0525 & 9.0765 & -57.62\% & 0.6936 & -14.91\% & 0.5404 & 456.12\% \\
+Combined Noise 0.055 & 9.0197 & -57.88\% & 0.6903 & -15.31\% & 0.5558 & 471.92\% \\
+Combined Noise 0.0575 & 9.0991 & -57.51\% & 0.7016 & -13.92\% & 0.5566 & 472.81\% \\
+Combined Noise 0.06 & 9.1874 & -57.10\% & 0.7099 & -12.90\% & 0.5428 & 458.58\% \\
+\hline
+Positional Noise 0.005 & 20.1217 & -6.04\% & 0.7768 & -4.70\% & 0.1101 & 13.25\% \\
+Positional Noise 0.01 & 21.2666 & -0.70\% & 0.8122 & -0.36\% & 0.1076 & 10.76\% \\
+Positional Noise 0.015 & 21.2434 & -0.81\% & 0.8024 & -1.56\% & 0.1054 & 8.42\% \\
+Positional Noise 0.02 & 20.0859 & -6.21\% & 0.7747 & -4.95\% & 0.1244 & 27.98\% \\
+Positional Noise 0.025 & 21.1208 & -1.38\% & 0.8081 & -0.85\% & 0.1057 & 8.75\% \\
+Positional Noise 0.03 & 21.4354 & 0.09\% & 0.8090 & -0.75\% & 0.1186 & 22.05\% \\
+Positional Noise 0.035 & 20.2002 & -5.68\% & 0.7740 & -5.04\% & 0.1345 & 38.39\% \\
+Positional Noise 0.04 & 20.6842 & -3.42\% & 0.7900 & -3.08\% & 0.1451 & 49.31\% \\
+Positional Noise 0.045 & 21.0121 & -1.89\% & 0.7933 & -2.67\% & 0.1511 & 55.47\% \\
+Positional Noise 0.05 & 19.3160 & -9.81\% & 0.7610 & -6.64\% & 0.1842 & 89.56\% \\
+Positional Noise 0.0525 & 20.4591 & -4.47\% & 0.7828 & -3.96\% & 0.1768 & 81.94\% \\
+Positional Noise 0.055 & 19.1451 & -10.60\% & 0.7530 & -7.62\% & 0.1932 & 98.80\% \\
+Positional Noise 0.0575 & 19.3522 & -9.64\% & 0.7555 & -7.31\% & 0.1977 & 103.41\% \\
+Positional Noise 0.06 & 19.0831 & -10.89\% & 0.7585 & -6.94\% & 0.2033 & 109.16\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Color noise degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.4162 & - & 0.8151 & - & 0.0972 & - \\
+\hline
+PnS Blue Channel 5 & 20.4030 & -4.73\% & 0.7812 & -4.15\% & 0.1149 & 18.22\% \\
+PnS Blue Channel 10 & 20.6805 & -3.44\% & 0.7991 & -1.97\% & 0.1195 & 22.94\% \\
+PnS Blue Channel 15 & 20.9637 & -2.11\% & 0.8033 & -1.45\% & 0.1207 & 24.24\% \\
+PnS Blue Channel 20 & 20.7969 & -2.89\% & 0.7942 & -2.57\% & 0.1177 & 21.15\% \\
+PnS Blue Channel 25 & 21.0861 & -1.54\% & 0.8168 & 0.21\% & 0.1206 & 24.14\% \\
+PnS Blue Channel 30 & 19.9683 & -6.76\% & 0.7808 & -4.20\% & 0.1293 & 33.09\% \\
+PnS Blue Channel 35 & 19.5533 & -8.70\% & 0.7696 & -5.59\% & 0.1496 & 53.93\% \\
+PnS Blue Channel 40 & 20.1728 & -5.81\% & 0.7873 & -3.41\% & 0.1393 & 43.40\% \\
+\hline
+PnS Green Channel 5 & 20.4222 & -4.64\% & 0.7820 & -4.06\% & 0.1131 & 16.39\% \\
+PnS Green Channel 10 & 21.2609 & -0.73\% & 0.8045 & -1.30\% & 0.1160 & 19.36\% \\
+PnS Green Channel 15 & 21.0179 & -1.86\% & 0.7993 & -1.94\% & 0.1390 & 43.04\% \\
+PnS Green Channel 20 & 20.4297 & -4.61\% & 0.7855 & -3.63\% & 0.1506 & 54.98\% \\
+PnS Green Channel 25 & 20.4123 & -4.69\% & 0.7960 & -2.34\% & 0.1648 & 69.55\% \\
+PnS Green Channel 30 & 19.9334 & -6.92\% & 0.7906 & -3.00\% & 0.1737 & 78.72\% \\
+PnS Green Channel 35 & 20.3970 & -4.76\% & 0.8100 & -0.62\% & 0.1734 & 78.40\% \\
+PnS Green Channel 40 & 19.5288 & -8.81\% & 0.7853 & -3.66\% & 0.1859 & 91.28\% \\
+\hline
+Image Noise 16 & 19.8415 & -7.35\% & 0.7521 & -7.73\% & 0.1805 & 85.72\% \\
+Image Noise 32 & 19.5432 & -8.75\% & 0.7616 & -6.57\% & 0.2054 & 111.38\% \\
+Image Noise 48 & 18.3202 & -14.46\% & 0.7511 & -7.85\% & 0.2070 & 112.99\% \\
+Image Noise 64 & 16.2063 & -24.33\% & 0.7318 & -10.22\% & 0.3059 & 214.81\% \\
+Image Noise 80 & 15.1849 & -29.10\% & 0.7156 & -12.21\% & 0.3470 & 257.08\% \\
+Image Noise 96 & 14.8677 & -30.58\% & 0.7524 & -7.70\% & 0.3295 & 239.03\% \\
+Image Noise 112 & 14.1477 & -33.94\% & 0.7273 & -10.77\% & 0.3857 & 296.93\% \\
+Image Noise 128 & 13.6106 & -36.45\% & 0.7177 & -11.95\% & 0.4098 & 321.73\% \\
+\hline
+PnS Red Channel 5 & 20.7470 & -3.12\% & 0.7877 & -3.36\% & 0.1083 & 11.42\% \\
+PnS Red Channel 10 & 21.1786 & -1.11\% & 0.7996 & -1.90\% & 0.1133 & 16.60\% \\
+PnS Red Channel 15 & 20.5229 & -4.17\% & 0.7843 & -3.78\% & 0.1283 & 32.02\% \\
+PnS Red Channel 20 & 21.0186 & -1.86\% & 0.8136 & -0.18\% & 0.1342 & 38.07\% \\
+PnS Red Channel 25 & 19.8018 & -7.54\% & 0.7823 & -4.02\% & 0.1595 & 64.16\% \\
+PnS Red Channel 30 & 19.3712 & -9.55\% & 0.7770 & -4.67\% & 0.1560 & 60.49\% \\
+PnS Red Channel 35 & 19.6073 & -8.45\% & 0.7943 & -2.55\% & 0.1650 & 69.81\% \\
+PnS Red Channel 40 & 19.3481 & -9.66\% & 0.8103 & -0.59\% & 0.1745 & 79.53\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Lightning degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.4162 & - & 0.8151 & - & 0.0972 & - \\
+\hline
+Gamma Correction 5 & 20.9589 & -2.14\% & 0.8039 & -1.37\% & 0.1094 & 12.56\% \\
+Gamma Correction 10 & 20.5738 & -3.93\% & 0.7890 & -3.19\% & 0.1118 & 15.01\% \\
+Gamma Correction 15 & 20.8172 & -2.80\% & 0.7949 & -2.48\% & 0.1107 & 13.95\% \\
+Gamma Correction 20 & 20.4520 & -4.50\% & 0.7877 & -3.36\% & 0.1188 & 22.22\% \\
+Gamma Correction 25 & 21.3486 & -0.32\% & 0.8121 & -0.37\% & 0.1127 & 15.96\% \\
+Gamma Correction 30 & 19.1507 & -10.58\% & 0.7629 & -6.41\% & 0.1636 & 68.32\% \\
+Gamma Correction 35 & 20.3129 & -5.15\% & 0.7931 & -2.70\% & 0.1180 & 21.44\% \\
+Gamma Correction 40 & 18.5164 & -13.54\% & 0.7609 & -6.65\% & 0.1546 & 59.07\% \\
+\hline
+Saturation Change 0.1 & 21.2584 & -0.74\% & 0.8032 & -1.45\% & 0.1003 & 3.18\% \\
+Saturation Change 0.2 & 20.6252 & -3.69\% & 0.7845 & -3.75\% & 0.1095 & 12.70\% \\
+Saturation Change 0.3 & 20.9075 & -2.38\% & 0.7994 & -1.93\% & 0.1011 & 3.99\% \\
+Saturation Change 0.4 & 20.9366 & -2.24\% & 0.8080 & -0.87\% & 0.1212 & 24.69\% \\
+Saturation Change 0.5 & 20.7200 & -3.25\% & 0.7984 & -2.05\% & 0.1091 & 12.28\% \\
+Saturation Change 0.6 & 20.1056 & -6.12\% & 0.7814 & -4.13\% & 0.1256 & 29.28\% \\
+Saturation Change 0.7 & 19.7731 & -7.67\% & 0.7705 & -5.47\% & 0.1198 & 23.28\% \\
+Saturation Change 0.8 & 21.0166 & -1.87\% & 0.8067 & -1.03\% & 0.1152 & 18.58\% \\
+Saturation Change 0.9 & 20.7023 & -3.33\% & 0.8157 & 0.07\% & 0.1292 & 32.92\% \\
+Saturation Change 1.0 & 20.9323 & -2.26\% & 0.7935 & -2.65\% & 0.1041 & 7.12\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Reductions degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.4162 & - & 0.8151 & - & 0.0972 & - \\
+\hline
+Reduced Image Set 2 & 12.1123 & -43.44\% & 0.6953 & -14.70\% & 0.4291 & 341.60\% \\
+Reduced Image Set 3 & 8.8804 & -58.53\% & 0.6461 & -20.73\% & 0.6729 & 592.50\% \\
+Reduced Image Set 4 & 9.4659 & -55.80\% & 0.6468 & -20.65\% & 0.7454 & 667.08\% \\
+Reduced Image Set 5 & 9.4766 & -55.75\% & 0.6628 & -18.69\% & 0.7144 & 635.19\% \\
+Reduced Image Set 6 & 9.3531 & -56.33\% & 0.6695 & -17.86\% & 0.6858 & 605.73\% \\
+Reduced Image Set 7 & 9.4351 & -55.94\% & 0.6478 & -20.52\% & 0.7408 & 662.33\% \\
+Reduced Image Set 8 & 9.5537 & -55.39\% & 0.7008 & -14.02\% & 0.5977 & 515.10\% \\
+\hline
+Saturation Change 0.1 & 21.2584 & -0.74\% & 0.8032 & -1.45\% & 0.1003 & 3.18\% \\
+Saturation Change 0.2 & 20.6252 & -3.69\% & 0.7845 & -3.75\% & 0.1095 & 12.70\% \\
+Saturation Change 0.3 & 20.9075 & -2.38\% & 0.7994 & -1.93\% & 0.1011 & 3.99\% \\
+Saturation Change 0.4 & 20.9366 & -2.24\% & 0.8080 & -0.87\% & 0.1212 & 24.69\% \\
+Saturation Change 0.5 & 20.7200 & -3.25\% & 0.7984 & -2.05\% & 0.1091 & 12.28\% \\
+Saturation Change 0.6 & 20.1056 & -6.12\% & 0.7814 & -4.13\% & 0.1256 & 29.28\% \\
+Saturation Change 0.7 & 19.7731 & -7.67\% & 0.7705 & -5.47\% & 0.1198 & 23.28\% \\
+Saturation Change 0.8 & 21.0166 & -1.87\% & 0.8067 & -1.03\% & 0.1152 & 18.58\% \\
+Saturation Change 0.9 & 20.7023 & -3.33\% & 0.8157 & 0.07\% & 0.1292 & 32.92\% \\
+Saturation Change 1.0 & 20.9323 & -2.26\% & 0.7935 & -2.65\% & 0.1041 & 7.12\% \\
+Saturation Change 10 & 9.4484 & -55.88\% & 0.6373 & -21.82\% & 0.7324 & 653.70\% \\
+Saturation Change 20 & 9.5265 & -55.52\% & 0.6420 & -21.23\% & 0.7491 & 670.85\% \\
+Saturation Change 30 & 9.5961 & -55.19\% & 0.6706 & -17.73\% & 0.7011 & 621.46\% \\
+Saturation Change 40 & 9.7083 & -54.67\% & 0.6835 & -16.14\% & 0.6688 & 588.28\% \\
+Saturation Change 50 & 9.8573 & -53.97\% & 0.6501 & -20.24\% & 0.6716 & 591.10\% \\
+Saturation Change 60 & 9.6575 & -54.91\% & 0.6752 & -17.16\% & 0.6461 & 564.86\% \\
+Saturation Change 70 & 9.5697 & -55.32\% & 0.6265 & -23.14\% & 0.7534 & 675.26\% \\
+Saturation Change 80 & 9.8024 & -54.23\% & 0.6445 & -20.93\% & 0.6413 & 559.92\% \\
+Saturation Change 90 & 9.7675 & -54.39\% & 0.7009 & -14.01\% & 0.5575 & 473.71\% \\
+Saturation Change 100 & 10.4259 & -51.32\% & 0.5549 & -31.92\% & 0.6455 & 564.24\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Stump dataset is used. Camera noise degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 22.0994 & - & 0.6864 & - & 0.4207 & - \\
+\hline
+Orientation Noise 0.005 & 20.4299 & -7.55\% & 0.5642 & -17.80\% & 0.6915 & 64.36\% \\
+Orientation Noise 0.01 & 19.7879 & -10.46\% & 0.5430 & -20.90\% & 0.7279 & 73.03\% \\
+Orientation Noise 0.015 & 19.0663 & -13.72\% & 0.5271 & -23.21\% & 0.7372 & 75.24\% \\
+Orientation Noise 0.02 & 18.5732 & -15.96\% & 0.5113 & -25.51\% & 0.7312 & 73.82\% \\
+Orientation Noise 0.025 & 18.2444 & -17.44\% & 0.4896 & -28.67\% & 0.7212 & 71.44\% \\
+Orientation Noise 0.03 & 17.1571 & -22.36\% & 0.4699 & -31.55\% & 0.7246 & 72.23\% \\
+Orientation Noise 0.035 & 15.6633 & -29.12\% & 0.4652 & -32.22\% & 0.7472 & 77.62\% \\
+Orientation Noise 0.04 & 14.2635 & -35.46\% & 0.4698 & -31.56\% & 0.7996 & 90.06\% \\
+Orientation Noise 0.045 & 13.9215 & -37.01\% & 0.4771 & -30.49\% & 0.8318 & 97.71\% \\
+Orientation Noise 0.05 & 13.5234 & -38.81\% & 0.4748 & -30.83\% & 0.8466 & 101.25\% \\
+Orientation Noise 0.0525 & 13.3287 & -39.69\% & 0.4734 & -31.02\% & 0.8576 & 103.86\% \\
+Orientation Noise 0.055 & 13.5216 & -38.81\% & 0.4748 & -30.82\% & 0.8646 & 105.52\% \\
+Orientation Noise 0.0575 & 13.4168 & -39.29\% & 0.4771 & -30.50\% & 0.8708 & 106.99\% \\
+Orientation Noise 0.06 & 13.4015 & -39.36\% & 0.4787 & -30.26\% & 0.8693 & 106.63\% \\
+\hline
+Combined Noise 0.005 & 20.6292 & -6.65\% & 0.5610 & -18.26\% & 0.6994 & 66.24\% \\
+Combined Noise 0.01 & 19.3571 & -12.41\% & 0.5353 & -22.01\% & 0.7352 & 74.75\% \\
+Combined Noise 0.015 & 18.9198 & -14.39\% & 0.5175 & -24.61\% & 0.7256 & 72.48\% \\
+Combined Noise 0.02 & 18.4495 & -16.52\% & 0.5007 & -27.05\% & 0.7205 & 71.26\% \\
+Combined Noise 0.025 & 17.6030 & -20.35\% & 0.4711 & -31.37\% & 0.7183 & 70.75\% \\
+Combined Noise 0.03 & 16.1718 & -26.82\% & 0.4573 & -33.38\% & 0.7289 & 73.26\% \\
+Combined Noise 0.035 & 14.4063 & -34.81\% & 0.4630 & -32.54\% & 0.7821 & 85.91\% \\
+Combined Noise 0.04 & 13.9076 & -37.07\% & 0.4705 & -31.45\% & 0.8151 & 93.75\% \\
+Combined Noise 0.045 & 13.5670 & -38.61\% & 0.4711 & -31.37\% & 0.8411 & 99.92\% \\
+Combined Noise 0.05 & 13.5301 & -38.78\% & 0.4723 & -31.20\% & 0.8551 & 103.26\% \\
+Combined Noise 0.0525 & 13.2396 & -40.09\% & 0.4716 & -31.30\% & 0.8751 & 108.01\% \\
+Combined Noise 0.055 & 13.1873 & -40.33\% & 0.4684 & -31.77\% & 0.8815 & 109.52\% \\
+Combined Noise 0.0575 & 13.2560 & -40.02\% & 0.4687 & -31.72\% & 0.8748 & 107.94\% \\
+Combined Noise 0.06 & 13.0521 & -40.94\% & 0.4735 & -31.01\% & 0.8940 & 112.51\% \\
+\hline
+Positional Noise 0.005 & 21.4875 & -2.77\% & 0.6032 & -12.12\% & 0.6079 & 44.49\% \\
+Positional Noise 0.01 & 20.9369 & -5.26\% & 0.5798 & -15.54\% & 0.6690 & 59.03\% \\
+Positional Noise 0.015 & 20.3856 & -7.75\% & 0.5663 & -17.50\% & 0.6892 & 63.82\% \\
+Positional Noise 0.02 & 20.0720 & -9.17\% & 0.5562 & -18.97\% & 0.6983 & 66.00\% \\
+Positional Noise 0.025 & 19.4414 & -12.03\% & 0.5465 & -20.38\% & 0.7070 & 68.07\% \\
+Positional Noise 0.03 & 19.4218 & -12.12\% & 0.5423 & -21.00\% & 0.7082 & 68.33\% \\
+Positional Noise 0.035 & 19.2249 & -13.01\% & 0.5357 & -21.95\% & 0.7086 & 68.43\% \\
+Positional Noise 0.04 & 19.0551 & -13.78\% & 0.5303 & -22.74\% & 0.7114 & 69.10\% \\
+Positional Noise 0.045 & 18.8673 & -14.63\% & 0.5260 & -23.37\% & 0.7133 & 69.55\% \\
+Positional Noise 0.05 & 18.7678 & -15.08\% & 0.5200 & -24.24\% & 0.7102 & 68.81\% \\
+Positional Noise 0.0525 & 18.3957 & -16.76\% & 0.5169 & -24.69\% & 0.7158 & 70.14\% \\
+Positional Noise 0.055 & 18.6042 & -15.82\% & 0.5156 & -24.88\% & 0.7132 & 69.53\% \\
+Positional Noise 0.0575 & 18.5919 & -15.87\% & 0.5158 & -24.86\% & 0.7115 & 69.11\% \\
+Positional Noise 0.06 & 18.3446 & -16.99\% & 0.5115 & -25.48\% & 0.7162 & 70.24\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Stump dataset is used. Color noise degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 22.0994 & - & 0.6864 & - & 0.4207 & - \\
+\hline
+PnS Blue Channel 5 & 22.3390 & 1.08\% & 0.6842 & -0.32\% & 0.4311 & 2.47\% \\
+PnS Blue Channel 10 & 21.4919 & -2.75\% & 0.6656 & -3.04\% & 0.4706 & 11.87\% \\
+PnS Blue Channel 15 & 21.3261 & -3.50\% & 0.6558 & -4.46\% & 0.4956 & 17.82\% \\
+PnS Blue Channel 20 & 20.6725 & -6.46\% & 0.6498 & -5.34\% & 0.5135 & 22.06\% \\
+PnS Blue Channel 25 & 20.3682 & -7.83\% & 0.6422 & -6.44\% & 0.5425 & 28.95\% \\
+PnS Blue Channel 30 & 19.8280 & -10.28\% & 0.6379 & -7.07\% & 0.5557 & 32.09\% \\
+PnS Blue Channel 35 & 19.2286 & -12.99\% & 0.6322 & -7.89\% & 0.5685 & 35.13\% \\
+PnS Blue Channel 40 & 18.9621 & -14.20\% & 0.6337 & -7.68\% & 0.5721 & 35.98\% \\
+\hline
+PnS Green Channel 5 & 22.2059 & 0.48\% & 0.6329 & -7.80\% & 0.5297 & 25.91\% \\
+PnS Green Channel 10 & 22.0132 & -0.39\% & 0.6179 & -9.98\% & 0.5839 & 38.80\% \\
+PnS Green Channel 15 & 21.3971 & -3.18\% & 0.6073 & -11.52\% & 0.6223 & 47.92\% \\
+PnS Green Channel 20 & 20.4033 & -7.67\% & 0.5972 & -13.00\% & 0.6666 & 58.46\% \\
+PnS Green Channel 25 & 19.9179 & -9.87\% & 0.5900 & -14.04\% & 0.6841 & 62.62\% \\
+PnS Green Channel 30 & 19.6593 & -11.04\% & 0.5841 & -14.91\% & 0.7141 & 69.75\% \\
+PnS Green Channel 35 & 19.0637 & -13.74\% & 0.5799 & -15.52\% & 0.7306 & 73.67\% \\
+PnS Green Channel 40 & 18.5100 & -16.24\% & 0.5748 & -16.25\% & 0.7611 & 80.91\% \\
+\hline
+Image Noise 16 & 22.2775 & 0.81\% & 0.6712 & -2.21\% & 0.4450 & 5.78\% \\
+Image Noise 32 & 22.2912 & 0.87\% & 0.6391 & -6.89\% & 0.5044 & 19.90\% \\
+Image Noise 48 & 22.0870 & -0.06\% & 0.6190 & -9.82\% & 0.5357 & 27.33\% \\
+Image Noise 64 & 22.0394 & -0.27\% & 0.6065 & -11.63\% & 0.5552 & 31.96\% \\
+Image Noise 80 & 20.4909 & -7.28\% & 0.5870 & -14.48\% & 0.5923 & 40.78\% \\
+Image Noise 96 & 20.0126 & -9.44\% & 0.5749 & -16.24\% & 0.6258 & 48.75\% \\
+Image Noise 112 & 19.5043 & -11.74\% & 0.5685 & -17.17\% & 0.6375 & 51.53\% \\
+Image Noise 128 & 18.3784 & -16.84\% & 0.5575 & -18.79\% & 0.6763 & 60.75\% \\
+\hline
+PnS Red Channel 5 & 22.1373 & 0.17\% & 0.6625 & -3.48\% & 0.4627 & 9.98\% \\
+PnS Red Channel 10 & 21.6263 & -2.14\% & 0.6479 & -5.61\% & 0.4997 & 18.78\% \\
+PnS Red Channel 15 & 21.4487 & -2.94\% & 0.6314 & -8.02\% & 0.5494 & 30.59\% \\
+PnS Red Channel 20 & 20.8250 & -5.77\% & 0.6208 & -9.56\% & 0.5749 & 36.65\% \\
+PnS Red Channel 25 & 20.3713 & -7.82\% & 0.6174 & -10.06\% & 0.6071 & 44.31\% \\
+PnS Red Channel 30 & 19.4466 & -12.00\% & 0.6074 & -11.51\% & 0.6375 & 51.54\% \\
+PnS Red Channel 35 & 18.9063 & -14.45\% & 0.6047 & -11.91\% & 0.6470 & 53.79\% \\
+PnS Red Channel 40 & 18.2301 & -17.51\% & 0.5971 & -13.02\% & 0.6654 & 58.18\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Stump dataset is used. Lightning degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 22.0994 & - & 0.6864 & - & 0.4207 & - \\
+\hline
+Gamma Correction 5 & 21.7662 & -1.51\% & 0.6891 & 0.39\% & 0.4144 & -1.50\% \\
+Gamma Correction 10 & 22.1338 & 0.16\% & 0.6828 & -0.53\% & 0.4280 & 1.73\% \\
+Gamma Correction 15 & 21.9191 & -0.82\% & 0.6826 & -0.55\% & 0.4277 & 1.66\% \\
+Gamma Correction 20 & 22.3858 & 1.30\% & 0.6803 & -0.89\% & 0.4186 & -0.51\% \\
+Gamma Correction 25 & 22.2641 & 0.75\% & 0.6790 & -1.08\% & 0.4323 & 2.76\% \\
+Gamma Correction 30 & 22.5412 & 2.00\% & 0.6731 & -1.94\% & 0.4373 & 3.95\% \\
+Gamma Correction 35 & 22.8561 & 3.42\% & 0.6788 & -1.10\% & 0.4402 & 4.64\% \\
+Gamma Correction 40 & 21.8485 & -1.14\% & 0.6567 & -4.33\% & 0.4499 & 6.93\% \\
+\hline
+Saturation Change 0.1 & 22.2964 & 0.89\% & 0.6913 & 0.71\% & 0.4149 & -1.39\% \\
+Saturation Change 0.2 & 21.7691 & -1.49\% & 0.6862 & -0.02\% & 0.4256 & 1.16\% \\
+Saturation Change 0.3 & 22.1472 & 0.22\% & 0.6869 & 0.07\% & 0.4232 & 0.60\% \\
+Saturation Change 0.4 & 20.9768 & -5.08\% & 0.6791 & -1.06\% & 0.4395 & 4.46\% \\
+Saturation Change 0.5 & 21.9821 & -0.53\% & 0.6875 & 0.16\% & 0.4327 & 2.85\% \\
+Saturation Change 0.6 & 22.0082 & -0.41\% & 0.6837 & -0.39\% & 0.4303 & 2.28\% \\
+Saturation Change 0.7 & 21.4386 & -2.99\% & 0.6787 & -1.12\% & 0.4511 & 7.23\% \\
+Saturation Change 0.8 & 21.9354 & -0.74\% & 0.6925 & 0.89\% & 0.4289 & 1.95\% \\
+Saturation Change 0.9 & 22.2293 & 0.59\% & 0.6813 & -0.74\% & 0.4307 & 2.39\% \\
+Saturation Change 1.0 & 22.0579 & -0.19\% & 0.6853 & -0.16\% & 0.4496 & 6.88\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Stump dataset is used. Reductions degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 22.0994 & - & 0.6864 & - & 0.4207 & - \\
+\hline
+Reduced Image Set 2 & 22.7474 & 2.93\% & 0.6970 & 1.55\% & 0.4029 & -4.23\% \\
+Reduced Image Set 3 & 22.6311 & 2.41\% & 0.6976 & 1.63\% & 0.4011 & -4.67\% \\
+Reduced Image Set 4 & 22.3938 & 1.33\% & 0.6763 & -1.48\% & 0.4392 & 4.39\% \\
+Reduced Image Set 5 & 13.1608 & -40.45\% & 0.4430 & -35.47\% & 0.8076 & 91.98\% \\
+Reduced Image Set 6 & 22.3056 & 0.93\% & 0.6713 & -2.21\% & 0.4503 & 7.03\% \\
+Reduced Image Set 7 & 12.3303 & -44.21\% & 0.4489 & -34.60\% & 0.8627 & 105.07\% \\
+Reduced Image Set 8 & 12.0856 & -45.31\% & 0.4277 & -37.69\% & 0.8566 & 103.62\% \\
+\hline
+Height Reduction 10 & 17.1702 & -22.30\% & 0.5440 & -20.74\% & 0.6192 & 47.19\% \\
+Height Reduction 20 & 17.8885 & -19.05\% & 0.5635 & -17.90\% & 0.5686 & 35.15\% \\
+Height Reduction 30 & 18.7259 & -15.27\% & 0.5779 & -15.80\% & 0.5657 & 34.47\% \\
+Height Reduction 40 & 19.6979 & -10.87\% & 0.6108 & -11.01\% & 0.5136 & 22.09\% \\
+Height Reduction 50 & 20.8807 & -5.51\% & 0.6390 & -6.90\% & 0.4579 & 8.84\% \\
+Height Reduction 60 & 19.7972 & -10.42\% & 0.6306 & -8.13\% & 0.4860 & 15.52\% \\
+Height Reduction 70 & 14.8763 & -32.68\% & 0.5107 & -25.60\% & 0.6401 & 52.16\% \\
+Height Reduction 80 & 21.4518 & -2.93\% & 0.6381 & -7.04\% & 0.4721 & 12.22\% \\
+Height Reduction 90 & 19.3177 & -12.59\% & 0.6149 & -10.41\% & 0.5144 & 22.27\% \\
+Height Reduction 100 & 21.0362 & -4.81\% & 0.6299 & -8.23\% & 0.4945 & 17.55\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Stump dataset is used. Camera noise degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.9259 & - & 0.6284 & - & 0.5139 & - \\
+\hline
+Combined Noise 0.005 & 21.6127 & -1.43\% & 0.6199 & -1.36\% & 0.5119 & -0.37\% \\
+Combined Noise 0.01 & 21.0954 & -3.79\% & 0.6025 & -4.13\% & 0.5230 & 1.78\% \\
+Combined Noise 0.015 & 20.7864 & -5.20\% & 0.5912 & -5.93\% & 0.5387 & 4.84\% \\
+Combined Noise 0.02 & 20.9120 & -4.62\% & 0.5883 & -6.39\% & 0.5492 & 6.89\% \\
+Combined Noise 0.025 & 20.2827 & -7.49\% & 0.5691 & -9.44\% & 0.5970 & 16.17\% \\
+Combined Noise 0.03 & 19.8151 & -9.63\% & 0.5578 & -11.24\% & 0.6332 & 23.23\% \\
+Combined Noise 0.035 & 19.3456 & -11.77\% & 0.5444 & -13.36\% & 0.6876 & 33.81\% \\
+Combined Noise 0.04 & 18.5487 & -15.40\% & 0.5215 & -17.02\% & 0.7179 & 39.71\% \\
+Combined Noise 0.045 & 17.4119 & -20.59\% & 0.4887 & -22.23\% & 0.7257 & 41.23\% \\
+Combined Noise 0.05 & 14.9712 & -31.72\% & 0.4615 & -26.56\% & 0.7574 & 47.39\% \\
+Combined Noise 0.0525 & 14.0254 & -36.03\% & 0.4645 & -26.08\% & 0.7984 & 55.37\% \\
+Combined Noise 0.055 & 13.7486 & -37.30\% & 0.4680 & -25.53\% & 0.8160 & 58.80\% \\
+Combined Noise 0.0575 & 13.6754 & -37.63\% & 0.4727 & -24.78\% & 0.8327 & 62.06\% \\
+Combined Noise 0.06 & 13.4136 & -38.82\% & 0.4688 & -25.39\% & 0.8454 & 64.52\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Stump dataset is used. Color noise degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.9259 & - & 0.6284 & - & 0.5139 & - \\
+\hline
+PnS Blue Channel 5 & 21.6391 & -1.31\% & 0.6235 & -0.79\% & 0.5230 & 1.78\% \\
+PnS Blue Channel 10 & 21.3055 & -2.83\% & 0.6182 & -1.63\% & 0.5587 & 8.72\% \\
+PnS Blue Channel 15 & 20.9480 & -4.46\% & 0.6095 & -3.01\% & 0.5835 & 13.56\% \\
+PnS Blue Channel 20 & 20.2114 & -7.82\% & 0.6030 & -4.04\% & 0.6073 & 18.18\% \\
+PnS Blue Channel 25 & 20.0941 & -8.35\% & 0.5991 & -4.67\% & 0.6137 & 19.44\% \\
+PnS Blue Channel 30 & 19.5743 & -10.73\% & 0.5962 & -5.12\% & 0.6324 & 23.07\% \\
+PnS Blue Channel 35 & 19.0775 & -12.99\% & 0.5942 & -5.45\% & 0.6391 & 24.37\% \\
+PnS Blue Channel 40 & 18.6780 & -14.81\% & 0.5915 & -5.87\% & 0.6490 & 26.29\% \\
+\hline
+PnS Green Channel 5 & 21.9148 & -0.05\% & 0.6071 & -3.40\% & 0.6163 & 19.93\% \\
+PnS Green Channel 10 & 21.5551 & -1.69\% & 0.5957 & -5.20\% & 0.6686 & 30.12\% \\
+PnS Green Channel 15 & 21.0240 & -4.11\% & 0.5876 & -6.50\% & 0.7056 & 37.31\% \\
+PnS Green Channel 20 & 20.0890 & -8.38\% & 0.5811 & -7.54\% & 0.7455 & 45.07\% \\
+PnS Green Channel 25 & 19.8666 & -9.39\% & 0.5766 & -8.25\% & 0.7588 & 47.67\% \\
+PnS Green Channel 30 & 19.4823 & -11.14\% & 0.5701 & -9.28\% & 0.7840 & 52.58\% \\
+PnS Green Channel 35 & 18.8643 & -13.96\% & 0.5670 & -9.78\% & 0.8045 & 56.57\% \\
+PnS Green Channel 40 & 18.3146 & -16.47\% & 0.5619 & -10.58\% & 0.8256 & 60.66\% \\
+\hline
+Image Noise 16 & 21.7129 & -0.97\% & 0.6210 & -1.18\% & 0.5376 & 4.63\% \\
+Image Noise 32 & 21.5966 & -1.50\% & 0.6068 & -3.44\% & 0.5848 & 13.81\% \\
+Image Noise 48 & 21.6617 & -1.20\% & 0.5963 & -5.11\% & 0.6164 & 19.95\% \\
+Image Noise 64 & 21.4947 & -1.97\% & 0.5869 & -6.61\% & 0.6414 & 24.83\% \\
+Image Noise 80 & 20.2888 & -7.47\% & 0.5715 & -9.06\% & 0.6716 & 30.69\% \\
+Image Noise 96 & 19.6460 & -10.40\% & 0.5612 & -10.70\% & 0.7014 & 36.49\% \\
+Image Noise 112 & 19.1613 & -12.61\% & 0.5550 & -11.68\% & 0.7239 & 40.89\% \\
+Image Noise 128 & 18.0557 & -17.65\% & 0.5444 & -13.37\% & 0.7524 & 46.43\% \\
+\hline
+PnS Red Channel 5 & 21.6511 & -1.25\% & 0.6144 & -2.22\% & 0.5570 & 8.41\% \\
+PnS Red Channel 10 & 21.0687 & -3.91\% & 0.6063 & -3.53\% & 0.5999 & 16.75\% \\
+PnS Red Channel 15 & 20.9676 & -4.37\% & 0.6027 & -4.10\% & 0.6389 & 24.33\% \\
+PnS Red Channel 20 & 20.5826 & -6.13\% & 0.5967 & -5.05\% & 0.6615 & 28.74\% \\
+PnS Red Channel 25 & 19.9980 & -8.79\% & 0.5921 & -5.78\% & 0.6864 & 33.57\% \\
+PnS Red Channel 30 & 19.2664 & -12.13\% & 0.5864 & -6.68\% & 0.7157 & 39.28\% \\
+PnS Red Channel 35 & 18.6915 & -14.75\% & 0.5830 & -7.23\% & 0.7245 & 41.00\% \\
+PnS Red Channel 40 & 18.0897 & -17.50\% & 0.5797 & -7.75\% & 0.7379 & 43.61\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Stump dataset is used. Lightning degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.9259 & - & 0.6284 & - & 0.5139 & - \\
+\hline
+Gamma Correction 5 & 21.6559 & -1.23\% & 0.6241 & -0.69\% & 0.5162 & 0.45\% \\
+Gamma Correction 10 & 21.7245 & -0.92\% & 0.6242 & -0.67\% & 0.5226 & 1.70\% \\
+Gamma Correction 15 & 21.8360 & -0.41\% & 0.6250 & -0.54\% & 0.5221 & 1.61\% \\
+Gamma Correction 20 & 21.7411 & -0.84\% & 0.6243 & -0.65\% & 0.5223 & 1.64\% \\
+Gamma Correction 25 & 21.7998 & -0.57\% & 0.6209 & -1.20\% & 0.5288 & 2.91\% \\
+Gamma Correction 30 & 21.9829 & 0.26\% & 0.6199 & -1.35\% & 0.5392 & 4.94\% \\
+Gamma Correction 35 & 21.9412 & 0.07\% & 0.6226 & -0.92\% & 0.5472 & 6.48\% \\
+Gamma Correction 40 & 21.5989 & -1.49\% & 0.6127 & -2.50\% & 0.5469 & 6.42\% \\
+\hline
+Saturation Change 0.1 & 21.7256 & -0.91\% & 0.6264 & -0.32\% & 0.5143 & 0.08\% \\
+Saturation Change 0.2 & 21.3849 & -2.47\% & 0.6220 & -1.03\% & 0.5183 & 0.86\% \\
+Saturation Change 0.3 & 21.9973 & 0.33\% & 0.6244 & -0.64\% & 0.5143 & 0.10\% \\
+Saturation Change 0.4 & 21.2073 & -3.28\% & 0.6256 & -0.45\% & 0.5231 & 1.80\% \\
+Saturation Change 0.5 & 21.3629 & -2.57\% & 0.6247 & -0.60\% & 0.5327 & 3.67\% \\
+Saturation Change 0.6 & 21.4166 & -2.32\% & 0.6238 & -0.74\% & 0.5248 & 2.12\% \\
+Saturation Change 0.7 & 21.0048 & -4.20\% & 0.6231 & -0.84\% & 0.5338 & 3.89\% \\
+Saturation Change 0.8 & 21.6024 & -1.48\% & 0.6225 & -0.94\% & 0.5256 & 2.29\% \\
+Saturation Change 0.9 & 21.6558 & -1.23\% & 0.6272 & -0.20\% & 0.5268 & 2.53\% \\
+Saturation Change 1.0 & 21.8891 & -0.17\% & 0.6311 & 0.42\% & 0.5174 & 0.68\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Stump dataset is used. Reductions degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.9259 & - & 0.6284 & - & 0.5139 & - \\
+\hline
+Reduced Image Set 2 & 21.6419 & -1.30\% & 0.6109 & -2.79\% & 0.4823 & -6.14\% \\
+Reduced Image Set 3 & 21.5450 & -1.74\% & 0.6173 & -1.76\% & 0.4722 & -8.10\% \\
+Reduced Image Set 4 & 21.7238 & -0.92\% & 0.6239 & -0.72\% & 0.4782 & -6.93\% \\
+Reduced Image Set 5 & 15.8181 & -27.86\% & 0.4972 & -20.89\% & 0.7049 & 37.17\% \\
+Reduced Image Set 6 & 20.5310 & -6.36\% & 0.5769 & -8.20\% & 0.4936 & -3.93\% \\
+Reduced Image Set 7 & 12.4749 & -43.10\% & 0.4465 & -28.95\% & 0.8642 & 68.18\% \\
+Reduced Image Set 8 & 11.9481 & -45.51\% & 0.4308 & -31.44\% & 0.8715 & 69.60\% \\
+\hline
+Height Reduction 10 & 12.7865 & -41.68\% & 0.4444 & -29.28\% & 0.8291 & 61.36\% \\
+Height Reduction 20 & 14.1284 & -35.56\% & 0.4533 & -27.87\% & 0.7743 & 50.69\% \\
+Height Reduction 30 & 17.0989 & -22.02\% & 0.5036 & -19.86\% & 0.6760 & 31.56\% \\
+Height Reduction 40 & 18.6738 & -14.83\% & 0.5379 & -14.40\% & 0.5861 & 14.05\% \\
+Height Reduction 50 & 19.0820 & -12.97\% & 0.5287 & -15.87\% & 0.5752 & 11.94\% \\
+Height Reduction 60 & 19.7434 & -9.95\% & 0.5590 & -11.04\% & 0.5170 & 0.62\% \\
+Height Reduction 70 & 17.2562 & -21.30\% & 0.5374 & -14.48\% & 0.6054 & 17.81\% \\
+Height Reduction 80 & 19.8750 & -9.35\% & 0.5546 & -11.75\% & 0.5099 & -0.78\% \\
+Height Reduction 90 & 19.3854 & -11.59\% & 0.5499 & -12.50\% & 0.5309 & 3.32\% \\
+Height Reduction 100 & 19.7438 & -9.95\% & 0.5506 & -12.38\% & 0.5302 & 3.18\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Camera noise degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.0421 & - & 0.8885 & - & 0.1659 & - \\
+\hline
+Orientation Noise 0.005 & 13.5361 & -35.67\% & 0.6549 & -26.29\% & 0.4341 & 161.70\% \\
+Orientation Noise 0.01 & 12.3930 & -41.10\% & 0.6262 & -29.52\% & 0.4689 & 182.67\% \\
+Orientation Noise 0.015 & 11.8699 & -43.59\% & 0.6110 & -31.23\% & 0.4993 & 201.00\% \\
+Orientation Noise 0.02 & 11.6449 & -44.66\% & 0.6153 & -30.74\% & 0.4937 & 197.66\% \\
+Orientation Noise 0.025 & 11.3449 & -46.08\% & 0.6046 & -31.95\% & 0.5092 & 206.99\% \\
+Orientation Noise 0.03 & 11.1556 & -46.98\% & 0.6074 & -31.63\% & 0.5108 & 207.92\% \\
+Orientation Noise 0.035 & 11.0000 & -47.72\% & 0.6086 & -31.50\% & 0.5097 & 207.26\% \\
+Orientation Noise 0.04 & 10.8487 & -48.44\% & 0.5992 & -32.56\% & 0.5170 & 211.68\% \\
+Orientation Noise 0.045 & 10.8727 & -48.33\% & 0.5868 & -33.96\% & 0.5438 & 227.84\% \\
+Orientation Noise 0.05 & 10.6834 & -49.23\% & 0.5762 & -35.14\% & 0.5495 & 231.30\% \\
+Orientation Noise 0.0525 & 10.6027 & -49.61\% & 0.5885 & -33.77\% & 0.5351 & 222.58\% \\
+Orientation Noise 0.055 & 10.6866 & -49.21\% & 0.5870 & -33.93\% & 0.5467 & 229.61\% \\
+Orientation Noise 0.0575 & 10.6858 & -49.22\% & 0.5822 & -34.47\% & 0.5473 & 229.96\% \\
+Orientation Noise 0.06 & 10.5549 & -49.84\% & 0.5746 & -35.32\% & 0.5559 & 235.13\% \\
+\hline
+Combined Noise 0.005 & 13.4331 & -36.16\% & 0.6553 & -26.25\% & 0.4374 & 163.68\% \\
+Combined Noise 0.01 & 12.1384 & -42.31\% & 0.6209 & -30.12\% & 0.4858 & 192.87\% \\
+Combined Noise 0.015 & 11.6979 & -44.41\% & 0.6148 & -30.80\% & 0.5015 & 202.32\% \\
+Combined Noise 0.02 & 11.3971 & -45.84\% & 0.6156 & -30.71\% & 0.4985 & 200.55\% \\
+Combined Noise 0.025 & 11.2061 & -46.74\% & 0.6158 & -30.69\% & 0.4977 & 200.03\% \\
+Combined Noise 0.03 & 11.0667 & -47.41\% & 0.6234 & -29.84\% & 0.4941 & 197.87\% \\
+Combined Noise 0.035 & 10.8877 & -48.26\% & 0.6026 & -32.18\% & 0.5182 & 212.39\% \\
+Combined Noise 0.04 & 10.7896 & -48.72\% & 0.6070 & -31.68\% & 0.5117 & 208.47\% \\
+Combined Noise 0.045 & 10.8123 & -48.62\% & 0.6000 & -32.47\% & 0.5254 & 216.72\% \\
+Combined Noise 0.05 & 10.6323 & -49.47\% & 0.5865 & -33.99\% & 0.5361 & 223.23\% \\
+Combined Noise 0.0525 & 10.7022 & -49.14\% & 0.5857 & -34.08\% & 0.5448 & 228.45\% \\
+Combined Noise 0.055 & 10.5581 & -49.82\% & 0.5714 & -35.69\% & 0.5516 & 232.54\% \\
+Combined Noise 0.0575 & 10.5126 & -50.04\% & 0.5867 & -33.97\% & 0.5400 & 225.56\% \\
+Combined Noise 0.06 & 10.5354 & -49.93\% & 0.5689 & -35.97\% & 0.5669 & 241.76\% \\
+\hline
+Positional Noise 0.005 & 17.0833 & -18.81\% & 0.7839 & -11.77\% & 0.3047 & 83.68\% \\
+Positional Noise 0.01 & 14.9164 & -29.11\% & 0.6968 & -21.57\% & 0.3955 & 138.45\% \\
+Positional Noise 0.015 & 14.2935 & -32.07\% & 0.6785 & -23.64\% & 0.4126 & 148.76\% \\
+Positional Noise 0.02 & 13.4543 & -36.06\% & 0.6527 & -26.54\% & 0.4475 & 169.78\% \\
+Positional Noise 0.025 & 12.9854 & -38.29\% & 0.6393 & -28.05\% & 0.4603 & 177.52\% \\
+Positional Noise 0.03 & 12.8847 & -38.77\% & 0.6407 & -27.89\% & 0.4684 & 182.38\% \\
+Positional Noise 0.035 & 12.4585 & -40.79\% & 0.6228 & -29.90\% & 0.4854 & 192.61\% \\
+Positional Noise 0.04 & 12.7125 & -39.59\% & 0.6354 & -28.49\% & 0.4739 & 185.70\% \\
+Positional Noise 0.045 & 12.2646 & -41.71\% & 0.6250 & -29.65\% & 0.4872 & 193.71\% \\
+Positional Noise 0.05 & 12.1725 & -42.15\% & 0.6250 & -29.66\% & 0.4908 & 195.87\% \\
+Positional Noise 0.0525 & 12.0682 & -42.65\% & 0.6200 & -30.21\% & 0.4958 & 198.93\% \\
+Positional Noise 0.055 & 12.2669 & -41.70\% & 0.6282 & -29.30\% & 0.4872 & 193.73\% \\
+Positional Noise 0.0575 & 12.2628 & -41.72\% & 0.6217 & -30.02\% & 0.4956 & 198.77\% \\
+Positional Noise 0.06 & 11.8806 & -43.54\% & 0.6066 & -31.73\% & 0.5114 & 208.29\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Color noise degradations. Instant-NGP model is used. Camera optimizer is disabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.0421 & - & 0.8885 & - & 0.1659 & - \\
+\hline
+PnS Blue Channel 5 & 21.4413 & 1.90\% & 0.8783 & -1.14\% & 0.1650 & -0.55\% \\
+PnS Blue Channel 10 & 20.9448 & -0.46\% & 0.8590 & -3.32\% & 0.1790 & 7.92\% \\
+PnS Blue Channel 15 & 20.3217 & -3.42\% & 0.8355 & -5.96\% & 0.2104 & 26.84\% \\
+PnS Blue Channel 20 & 20.6835 & -1.70\% & 0.8471 & -4.66\% & 0.1845 & 11.20\% \\
+PnS Blue Channel 25 & 20.3108 & -3.48\% & 0.8439 & -5.02\% & 0.1889 & 13.91\% \\
+PnS Blue Channel 30 & 19.6448 & -6.64\% & 0.8253 & -7.11\% & 0.2174 & 31.05\% \\
+PnS Blue Channel 35 & 18.6446 & -11.39\% & 0.7931 & -10.73\% & 0.2722 & 64.12\% \\
+PnS Blue Channel 40 & 18.9548 & -9.92\% & 0.8144 & -8.34\% & 0.2339 & 41.00\% \\
+\hline
+PnS Green Channel 5 & 20.4242 & -2.94\% & 0.8579 & -3.44\% & 0.2149 & 29.53\% \\
+PnS Green Channel 10 & 20.5204 & -2.48\% & 0.8619 & -2.99\% & 0.1995 & 20.27\% \\
+PnS Green Channel 15 & 19.8477 & -5.68\% & 0.8398 & -5.48\% & 0.2417 & 45.70\% \\
+PnS Green Channel 20 & 20.0417 & -4.75\% & 0.8451 & -4.88\% & 0.2388 & 43.95\% \\
+PnS Green Channel 25 & 20.0922 & -4.51\% & 0.8423 & -5.20\% & 0.2328 & 40.32\% \\
+PnS Green Channel 30 & 19.2332 & -8.60\% & 0.8286 & -6.74\% & 0.2617 & 57.74\% \\
+PnS Green Channel 35 & 18.9370 & -10.00\% & 0.8175 & -7.98\% & 0.2968 & 78.95\% \\
+PnS Green Channel 40 & 18.2046 & -13.49\% & 0.8014 & -9.80\% & 0.3237 & 95.16\% \\
+\hline
+Image Noise 16 & 20.6657 & -1.79\% & 0.8910 & 0.29\% & 0.1522 & -8.27\% \\
+Image Noise 32 & 18.2916 & -13.07\% & 0.8258 & -7.06\% & 0.2726 & 64.32\% \\
+Image Noise 48 & 15.9925 & -24.00\% & 0.7253 & -18.36\% & 0.4441 & 167.72\% \\
+Image Noise 64 & 16.4992 & -21.59\% & 0.6703 & -24.56\% & 0.4723 & 184.73\% \\
+Image Noise 80 & 16.4160 & -21.98\% & 0.6374 & -28.25\% & 0.4812 & 190.12\% \\
+Image Noise 96 & 14.6755 & -30.26\% & 0.5468 & -38.46\% & 0.5741 & 246.13\% \\
+Image Noise 112 & 14.5595 & -30.81\% & 0.5362 & -39.65\% & 0.5599 & 237.55\% \\
+Image Noise 128 & 14.3853 & -31.64\% & 0.5538 & -37.67\% & 0.5531 & 233.47\% \\
+\hline
+PnS Red Channel 5 & 20.3961 & -3.07\% & 0.8630 & -2.87\% & 0.2014 & 21.44\% \\
+PnS Red Channel 10 & 20.8522 & -0.90\% & 0.8682 & -2.29\% & 0.1783 & 7.48\% \\
+PnS Red Channel 15 & 19.2486 & -8.52\% & 0.8294 & -6.65\% & 0.2363 & 42.48\% \\
+PnS Red Channel 20 & 19.1994 & -8.76\% & 0.8269 & -6.94\% & 0.2508 & 51.19\% \\
+PnS Red Channel 25 & 18.8702 & -10.32\% & 0.8147 & -8.30\% & 0.2592 & 56.27\% \\
+PnS Red Channel 30 & 17.5304 & -16.69\% & 0.7837 & -11.80\% & 0.3107 & 87.33\% \\
+PnS Red Channel 35 & 16.4765 & -21.70\% & 0.7620 & -14.24\% & 0.3410 & 105.56\% \\
+PnS Red Channel 40 & 18.0103 & -14.41\% & 0.8055 & -9.34\% & 0.2868 & 72.88\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Lightning degradations. Instant-NGP model is used. Camera optimizer is disabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.0421 & - & 0.8885 & - & 0.1659 & - \\
+\hline
+Gamma Correction 5 & 20.8107 & -1.10\% & 0.8827 & -0.66\% & 0.1781 & 7.34\% \\
+Gamma Correction 10 & 19.9454 & -5.21\% & 0.8625 & -2.92\% & 0.2068 & 24.70\% \\
+Gamma Correction 15 & 19.9285 & -5.29\% & 0.8636 & -2.80\% & 0.2130 & 28.41\% \\
+Gamma Correction 20 & 20.2157 & -3.93\% & 0.8662 & -2.51\% & 0.2033 & 22.53\% \\
+Gamma Correction 25 & 20.4601 & -2.77\% & 0.8692 & -2.17\% & 0.1933 & 16.55\% \\
+Gamma Correction 30 & 20.3151 & -3.45\% & 0.8839 & -0.52\% & 0.1724 & 3.96\% \\
+Gamma Correction 35 & 19.0518 & -9.46\% & 0.8502 & -4.31\% & 0.2251 & 35.70\% \\
+Gamma Correction 40 & 18.3303 & -12.89\% & 0.8361 & -5.90\% & 0.2152 & 29.75\% \\
+\hline
+Saturation Change 0.1 & 21.0999 & 0.27\% & 0.8881 & -0.04\% & 0.1694 & 2.13\% \\
+Saturation Change 0.2 & 20.8925 & -0.71\% & 0.8841 & -0.50\% & 0.1780 & 7.29\% \\
+Saturation Change 0.3 & 21.5140 & 2.24\% & 0.8968 & 0.94\% & 0.1500 & -9.57\% \\
+Saturation Change 0.4 & 20.7447 & -1.41\% & 0.8954 & 0.78\% & 0.1406 & -15.21\% \\
+Saturation Change 0.5 & 20.8768 & -0.79\% & 0.8901 & 0.19\% & 0.1485 & -10.46\% \\
+Saturation Change 0.6 & 20.8998 & -0.68\% & 0.8926 & 0.46\% & 0.1453 & -12.42\% \\
+Saturation Change 0.7 & 19.8907 & -5.47\% & 0.8786 & -1.11\% & 0.1629 & -1.78\% \\
+Saturation Change 0.8 & 20.9154 & -0.60\% & 0.8957 & 0.81\% & 0.1335 & -19.50\% \\
+Saturation Change 0.9 & 20.1550 & -4.22\% & 0.8859 & -0.29\% & 0.1533 & -7.56\% \\
+Saturation Change 1.0 & 20.5214 & -2.47\% & 0.8827 & -0.65\% & 0.1706 & 2.88\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Reductions degradations. Instant-NGP model is used. Camera optimizer is disabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.0421 & - & 0.8885 & - & 0.1659 & - \\
+\hline
+Reduced Image Set 2 & 11.3626 & -46.00\% & 0.5980 & -32.70\% & 0.5342 & 222.07\% \\
+Reduced Image Set 3 & 10.4488 & -50.34\% & 0.5631 & -36.62\% & 0.5623 & 238.99\% \\
+Reduced Image Set 4 & 10.0704 & -52.14\% & 0.5609 & -36.87\% & 0.5876 & 254.22\% \\
+Reduced Image Set 5 & 9.5654 & -54.54\% & 0.5336 & -39.94\% & 0.6116 & 268.72\% \\
+Reduced Image Set 6 & 9.8111 & -53.37\% & 0.5393 & -39.30\% & 0.6335 & 281.89\% \\
+Reduced Image Set 7 & 9.5453 & -54.64\% & 0.5352 & -39.76\% & 0.6360 & 283.41\% \\
+Reduced Image Set 8 & 9.6152 & -54.31\% & 0.4978 & -43.97\% & 0.6871 & 314.24\% \\
+\hline
+Saturation Change 0.1 & 21.0999 & 0.27\% & 0.8881 & -0.04\% & 0.1694 & 2.13\% \\
+Saturation Change 0.2 & 20.8925 & -0.71\% & 0.8841 & -0.50\% & 0.1780 & 7.29\% \\
+Saturation Change 0.3 & 21.5140 & 2.24\% & 0.8968 & 0.94\% & 0.1500 & -9.57\% \\
+Saturation Change 0.4 & 20.7447 & -1.41\% & 0.8954 & 0.78\% & 0.1406 & -15.21\% \\
+Saturation Change 0.5 & 20.8768 & -0.79\% & 0.8901 & 0.19\% & 0.1485 & -10.46\% \\
+Saturation Change 0.6 & 20.8998 & -0.68\% & 0.8926 & 0.46\% & 0.1453 & -12.42\% \\
+Saturation Change 0.7 & 19.8907 & -5.47\% & 0.8786 & -1.11\% & 0.1629 & -1.78\% \\
+Saturation Change 0.8 & 20.9154 & -0.60\% & 0.8957 & 0.81\% & 0.1335 & -19.50\% \\
+Saturation Change 0.9 & 20.1550 & -4.22\% & 0.8859 & -0.29\% & 0.1533 & -7.56\% \\
+Saturation Change 1.0 & 20.5214 & -2.47\% & 0.8827 & -0.65\% & 0.1706 & 2.88\% \\
+Saturation Change 10 & 9.6940 & -53.93\% & 0.4662 & -47.53\% & 0.7277 & 338.72\% \\
+Saturation Change 20 & 9.5940 & -54.41\% & 0.4508 & -49.26\% & 0.7295 & 339.77\% \\
+Saturation Change 30 & 10.0224 & -52.37\% & 0.4832 & -45.62\% & 0.7158 & 331.51\% \\
+Saturation Change 40 & 9.2384 & -56.10\% & 0.4692 & -47.20\% & 0.7275 & 338.56\% \\
+Saturation Change 50 & 9.4991 & -54.86\% & 0.5197 & -41.51\% & 0.6973 & 320.37\% \\
+Saturation Change 60 & 9.1696 & -56.42\% & 0.4709 & -47.00\% & 0.7287 & 339.33\% \\
+Saturation Change 70 & 9.8428 & -53.22\% & 0.4894 & -44.91\% & 0.7034 & 324.03\% \\
+Saturation Change 80 & 9.8141 & -53.36\% & 0.4916 & -44.67\% & 0.7114 & 328.86\% \\
+Saturation Change 90 & 9.8859 & -53.02\% & 0.4833 & -45.60\% & 0.7105 & 328.36\% \\
+Saturation Change 100 & 9.3877 & -55.39\% & 0.5482 & -38.30\% & 0.6557 & 295.31\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Camera noise degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 20.3826 & - & 0.8757 & - & 0.1957 & - \\
+\hline
+Orientation Noise 0.005 & 13.5559 & -33.49\% & 0.6561 & -25.08\% & 0.4341 & 121.85\% \\
+Orientation Noise 0.01 & 12.4071 & -39.13\% & 0.6277 & -28.32\% & 0.4740 & 142.21\% \\
+Orientation Noise 0.015 & 11.9876 & -41.19\% & 0.6190 & -29.31\% & 0.4910 & 150.92\% \\
+Orientation Noise 0.02 & 11.6277 & -42.95\% & 0.6205 & -29.15\% & 0.4890 & 149.87\% \\
+Orientation Noise 0.025 & 11.4863 & -43.65\% & 0.6159 & -29.67\% & 0.5001 & 155.58\% \\
+Orientation Noise 0.03 & 11.2006 & -45.05\% & 0.6184 & -29.38\% & 0.5024 & 156.76\% \\
+Orientation Noise 0.035 & 10.9420 & -46.32\% & 0.6093 & -30.42\% & 0.5051 & 158.13\% \\
+Orientation Noise 0.04 & 10.8327 & -46.85\% & 0.6059 & -30.81\% & 0.5161 & 163.72\% \\
+Orientation Noise 0.045 & 10.9626 & -46.22\% & 0.6056 & -30.84\% & 0.5196 & 165.53\% \\
+Orientation Noise 0.05 & 10.5841 & -48.07\% & 0.5918 & -32.42\% & 0.5324 & 172.05\% \\
+Orientation Noise 0.0525 & 10.6662 & -47.67\% & 0.5831 & -33.42\% & 0.5450 & 178.50\% \\
+Orientation Noise 0.055 & 10.5874 & -48.06\% & 0.5913 & -32.48\% & 0.5425 & 177.24\% \\
+Orientation Noise 0.0575 & 10.7270 & -47.37\% & 0.6037 & -31.07\% & 0.5248 & 168.17\% \\
+Orientation Noise 0.06 & 10.5985 & -48.00\% & 0.5739 & -34.47\% & 0.5589 & 185.63\% \\
+\hline
+Combined Noise 0.005 & 13.3453 & -34.53\% & 0.6461 & -26.22\% & 0.4474 & 128.63\% \\
+Combined Noise 0.01 & 12.1532 & -40.37\% & 0.6249 & -28.64\% & 0.4775 & 144.03\% \\
+Combined Noise 0.015 & 11.6855 & -42.67\% & 0.6206 & -29.13\% & 0.4946 & 152.77\% \\
+Combined Noise 0.02 & 11.4999 & -43.58\% & 0.6222 & -28.95\% & 0.4941 & 152.49\% \\
+Combined Noise 0.025 & 11.0680 & -45.70\% & 0.6090 & -30.46\% & 0.5050 & 158.05\% \\
+Combined Noise 0.03 & 10.9690 & -46.18\% & 0.6004 & -31.44\% & 0.5159 & 163.62\% \\
+Combined Noise 0.035 & 11.0118 & -45.97\% & 0.6119 & -30.13\% & 0.5072 & 159.21\% \\
+Combined Noise 0.04 & 10.6881 & -47.56\% & 0.6007 & -31.41\% & 0.5203 & 165.90\% \\
+Combined Noise 0.045 & 10.8446 & -46.79\% & 0.5888 & -32.77\% & 0.5421 & 177.04\% \\
+Combined Noise 0.05 & 10.5893 & -48.05\% & 0.5864 & -33.04\% & 0.5380 & 174.93\% \\
+Combined Noise 0.0525 & 10.6258 & -47.87\% & 0.5852 & -33.18\% & 0.5388 & 175.36\% \\
+Combined Noise 0.055 & 10.6575 & -47.71\% & 0.5912 & -32.50\% & 0.5403 & 176.10\% \\
+Combined Noise 0.0575 & 10.4853 & -48.56\% & 0.5703 & -34.88\% & 0.5579 & 185.11\% \\
+Combined Noise 0.06 & 10.5626 & -48.18\% & 0.5764 & -34.18\% & 0.5520 & 182.09\% \\
+\hline
+Positional Noise 0.005 & 18.0702 & -11.34\% & 0.8123 & -7.25\% & 0.2684 & 37.14\% \\
+Positional Noise 0.01 & 14.9109 & -26.84\% & 0.7013 & -19.92\% & 0.3939 & 101.31\% \\
+Positional Noise 0.015 & 13.9091 & -31.76\% & 0.6685 & -23.67\% & 0.4269 & 118.13\% \\
+Positional Noise 0.02 & 13.3249 & -34.63\% & 0.6568 & -25.00\% & 0.4432 & 126.47\% \\
+Positional Noise 0.025 & 13.0522 & -35.96\% & 0.6464 & -26.19\% & 0.4542 & 132.12\% \\
+Positional Noise 0.03 & 12.7116 & -37.63\% & 0.6349 & -27.50\% & 0.4797 & 145.14\% \\
+Positional Noise 0.035 & 12.5369 & -38.49\% & 0.6243 & -28.71\% & 0.4919 & 151.39\% \\
+Positional Noise 0.04 & 12.5268 & -38.54\% & 0.6270 & -28.41\% & 0.4825 & 146.54\% \\
+Positional Noise 0.045 & 12.0584 & -40.84\% & 0.6136 & -29.93\% & 0.5000 & 155.52\% \\
+Positional Noise 0.05 & 12.1934 & -40.18\% & 0.6256 & -28.56\% & 0.4879 & 149.31\% \\
+Positional Noise 0.0525 & 11.9937 & -41.16\% & 0.6153 & -29.73\% & 0.5015 & 156.30\% \\
+Positional Noise 0.055 & 12.2132 & -40.08\% & 0.6238 & -28.77\% & 0.4909 & 150.87\% \\
+Positional Noise 0.0575 & 12.0992 & -40.64\% & 0.6114 & -30.19\% & 0.5045 & 157.81\% \\
+Positional Noise 0.06 & 11.7707 & -42.25\% & 0.6081 & -30.56\% & 0.5117 & 161.48\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Color noise degradations. Instant-NGP model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 20.3826 & - & 0.8757 & - & 0.1957 & - \\
+\hline
+PnS Blue Channel 5 & 21.5208 & 5.58\% & 0.8780 & 0.26\% & 0.1622 & -17.13\% \\
+PnS Blue Channel 10 & 21.6204 & 6.07\% & 0.8662 & -1.10\% & 0.1657 & -15.34\% \\
+PnS Blue Channel 15 & 19.8029 & -2.84\% & 0.8283 & -5.41\% & 0.2207 & 12.80\% \\
+PnS Blue Channel 20 & 20.3980 & 0.08\% & 0.8438 & -3.65\% & 0.1948 & -0.48\% \\
+PnS Blue Channel 25 & 20.7128 & 1.62\% & 0.8507 & -2.85\% & 0.1694 & -13.43\% \\
+PnS Blue Channel 30 & 20.1913 & -0.94\% & 0.8352 & -4.63\% & 0.1985 & 1.42\% \\
+PnS Blue Channel 35 & 19.6868 & -3.41\% & 0.8250 & -5.79\% & 0.2214 & 13.16\% \\
+PnS Blue Channel 40 & 18.6312 & -8.59\% & 0.8035 & -8.25\% & 0.2562 & 30.91\% \\
+\hline
+PnS Green Channel 5 & 21.2201 & 4.11\% & 0.8811 & 0.61\% & 0.1755 & -10.34\% \\
+PnS Green Channel 10 & 20.7179 & 1.64\% & 0.8610 & -1.68\% & 0.2127 & 8.69\% \\
+PnS Green Channel 15 & 19.9196 & -2.27\% & 0.8389 & -4.21\% & 0.2453 & 25.33\% \\
+PnS Green Channel 20 & 20.0967 & -1.40\% & 0.8460 & -3.39\% & 0.2284 & 16.73\% \\
+PnS Green Channel 25 & 19.7327 & -3.19\% & 0.8369 & -4.43\% & 0.2469 & 26.17\% \\
+PnS Green Channel 30 & 18.8285 & -7.62\% & 0.8166 & -6.75\% & 0.2895 & 47.93\% \\
+PnS Green Channel 35 & 18.6643 & -8.43\% & 0.8174 & -6.66\% & 0.2848 & 45.52\% \\
+PnS Green Channel 40 & 18.0206 & -11.59\% & 0.7960 & -9.11\% & 0.3214 & 64.24\% \\
+\hline
+Image Noise 16 & 20.4594 & 0.38\% & 0.8843 & 0.98\% & 0.1713 & -12.46\% \\
+Image Noise 32 & 18.4918 & -9.28\% & 0.8277 & -5.49\% & 0.2792 & 42.65\% \\
+Image Noise 48 & 16.4202 & -19.44\% & 0.7297 & -16.67\% & 0.4361 & 122.88\% \\
+Image Noise 64 & 16.7760 & -17.69\% & 0.6884 & -21.39\% & 0.4622 & 136.22\% \\
+Image Noise 80 & 16.3659 & -19.71\% & 0.6365 & -27.32\% & 0.4822 & 146.43\% \\
+Image Noise 96 & 14.4915 & -28.90\% & 0.5509 & -37.10\% & 0.5752 & 193.92\% \\
+Image Noise 112 & 14.7958 & -27.41\% & 0.5714 & -34.75\% & 0.5376 & 174.73\% \\
+Image Noise 128 & 14.2520 & -30.08\% & 0.5499 & -37.21\% & 0.5614 & 186.89\% \\
+\hline
+PnS Red Channel 5 & 20.4067 & 0.12\% & 0.8573 & -2.10\% & 0.2102 & 7.42\% \\
+PnS Red Channel 10 & 20.8420 & 2.25\% & 0.8634 & -1.41\% & 0.1936 & -1.08\% \\
+PnS Red Channel 15 & 19.8477 & -2.62\% & 0.8396 & -4.13\% & 0.2231 & 14.03\% \\
+PnS Red Channel 20 & 19.6239 & -3.72\% & 0.8339 & -4.77\% & 0.2392 & 22.25\% \\
+PnS Red Channel 25 & 18.4379 & -9.54\% & 0.8035 & -8.25\% & 0.2768 & 41.43\% \\
+PnS Red Channel 30 & 17.0676 & -16.26\% & 0.7713 & -11.92\% & 0.3311 & 69.19\% \\
+PnS Red Channel 35 & 16.2091 & -20.48\% & 0.7498 & -14.38\% & 0.3591 & 83.51\% \\
+PnS Red Channel 40 & 17.8886 & -12.24\% & 0.8133 & -7.13\% & 0.2652 & 35.51\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Lightning degradations. Instant-NGP model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 20.3826 & - & 0.8757 & - & 0.1957 & - \\
+\hline
+Gamma Correction 5 & 20.5309 & 0.73\% & 0.8734 & -0.27\% & 0.1986 & 1.48\% \\
+Gamma Correction 10 & 20.7522 & 1.81\% & 0.8839 & 0.93\% & 0.1745 & -10.84\% \\
+Gamma Correction 15 & 20.4092 & 0.13\% & 0.8765 & 0.09\% & 0.1865 & -4.69\% \\
+Gamma Correction 20 & 18.8861 & -7.34\% & 0.8440 & -3.62\% & 0.2370 & 21.11\% \\
+Gamma Correction 25 & 20.2292 & -0.75\% & 0.8698 & -0.67\% & 0.1944 & -0.63\% \\
+Gamma Correction 30 & 20.5515 & 0.83\% & 0.8848 & 1.03\% & 0.1738 & -11.17\% \\
+Gamma Correction 35 & 19.8500 & -2.61\% & 0.8789 & 0.36\% & 0.1715 & -12.35\% \\
+Gamma Correction 40 & 19.6300 & -3.69\% & 0.8625 & -1.51\% & 0.1950 & -0.34\% \\
+\hline
+Saturation Change 0.1 & 20.8866 & 2.47\% & 0.8881 & 1.41\% & 0.1669 & -14.72\% \\
+Saturation Change 0.2 & 20.2081 & -0.86\% & 0.8772 & 0.17\% & 0.1894 & -3.24\% \\
+Saturation Change 0.3 & 20.5962 & 1.05\% & 0.8859 & 1.16\% & 0.1643 & -16.06\% \\
+Saturation Change 0.4 & 20.8925 & 2.50\% & 0.8935 & 2.03\% & 0.1449 & -25.97\% \\
+Saturation Change 0.5 & 20.3873 & 0.02\% & 0.8815 & 0.65\% & 0.1724 & -11.91\% \\
+Saturation Change 0.6 & 20.6204 & 1.17\% & 0.8865 & 1.23\% & 0.1541 & -21.23\% \\
+Saturation Change 0.7 & 20.0447 & -1.66\% & 0.8788 & 0.35\% & 0.1684 & -13.96\% \\
+Saturation Change 0.8 & 20.7277 & 1.69\% & 0.8934 & 2.01\% & 0.1360 & -30.48\% \\
+Saturation Change 0.9 & 20.6346 & 1.24\% & 0.8876 & 1.35\% & 0.1500 & -23.37\% \\
+Saturation Change 1.0 & 20.6433 & 1.28\% & 0.8843 & 0.97\% & 0.1612 & -17.63\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Reductions degradations. Instant-NGP model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 20.3826 & - & 0.8757 & - & 0.1957 & - \\
+\hline
+Reduced Image Set 2 & 11.4902 & -43.63\% & 0.6100 & -30.34\% & 0.5146 & 163.00\% \\
+Reduced Image Set 3 & 10.4256 & -48.85\% & 0.5510 & -37.08\% & 0.5794 & 196.08\% \\
+Reduced Image Set 4 & 10.1202 & -50.35\% & 0.5636 & -35.65\% & 0.5860 & 199.45\% \\
+Reduced Image Set 5 & 9.5445 & -53.17\% & 0.5391 & -38.44\% & 0.6057 & 209.54\% \\
+Reduced Image Set 6 & 9.8230 & -51.81\% & 0.5396 & -38.39\% & 0.6365 & 225.29\% \\
+Reduced Image Set 7 & 9.5996 & -52.90\% & 0.5344 & -38.98\% & 0.6382 & 226.14\% \\
+Reduced Image Set 8 & 9.6836 & -52.49\% & 0.5112 & -41.63\% & 0.6759 & 245.41\% \\
+\hline
+Saturation Change 0.1 & 20.8866 & 2.47\% & 0.8881 & 1.41\% & 0.1669 & -14.72\% \\
+Saturation Change 0.2 & 20.2081 & -0.86\% & 0.8772 & 0.17\% & 0.1894 & -3.24\% \\
+Saturation Change 0.3 & 20.5962 & 1.05\% & 0.8859 & 1.16\% & 0.1643 & -16.06\% \\
+Saturation Change 0.4 & 20.8925 & 2.50\% & 0.8935 & 2.03\% & 0.1449 & -25.97\% \\
+Saturation Change 0.5 & 20.3873 & 0.02\% & 0.8815 & 0.65\% & 0.1724 & -11.91\% \\
+Saturation Change 0.6 & 20.6204 & 1.17\% & 0.8865 & 1.23\% & 0.1541 & -21.23\% \\
+Saturation Change 0.7 & 20.0447 & -1.66\% & 0.8788 & 0.35\% & 0.1684 & -13.96\% \\
+Saturation Change 0.8 & 20.7277 & 1.69\% & 0.8934 & 2.01\% & 0.1360 & -30.48\% \\
+Saturation Change 0.9 & 20.6346 & 1.24\% & 0.8876 & 1.35\% & 0.1500 & -23.37\% \\
+Saturation Change 1.0 & 20.6433 & 1.28\% & 0.8843 & 0.97\% & 0.1612 & -17.63\% \\
+Saturation Change 10 & 9.6841 & -52.49\% & 0.4822 & -44.94\% & 0.7222 & 269.07\% \\
+Saturation Change 20 & 9.6744 & -52.54\% & 0.4621 & -47.23\% & 0.7263 & 271.15\% \\
+Saturation Change 30 & 9.9416 & -51.22\% & 0.4914 & -43.89\% & 0.7024 & 258.94\% \\
+Saturation Change 40 & 9.3051 & -54.35\% & 0.4848 & -44.65\% & 0.7127 & 264.18\% \\
+Saturation Change 50 & 9.5169 & -53.31\% & 0.5077 & -42.03\% & 0.6993 & 257.34\% \\
+Saturation Change 60 & 9.1541 & -55.09\% & 0.4695 & -46.39\% & 0.7215 & 268.72\% \\
+Saturation Change 70 & 9.8044 & -51.90\% & 0.4742 & -45.85\% & 0.7163 & 266.05\% \\
+Saturation Change 80 & 9.7823 & -52.01\% & 0.4840 & -44.73\% & 0.7138 & 264.74\% \\
+Saturation Change 90 & 9.6984 & -52.42\% & 0.4746 & -45.81\% & 0.7128 & 264.23\% \\
+Saturation Change 100 & 9.2824 & -54.46\% & 0.5713 & -34.76\% & 0.6453 & 229.74\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Stump dataset is used. Camera noise degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.6441 & - & 0.6442 & - & 0.4968 & - \\
+\hline
+Orientation Noise 0.005 & 20.1808 & -6.76\% & 0.5598 & -13.10\% & 0.7253 & 46.00\% \\
+Orientation Noise 0.01 & 19.4860 & -9.97\% & 0.5425 & -15.78\% & 0.7652 & 54.03\% \\
+Orientation Noise 0.015 & 18.7070 & -13.57\% & 0.5326 & -17.32\% & 0.7765 & 56.31\% \\
+Orientation Noise 0.02 & 18.4517 & -14.75\% & 0.5219 & -18.98\% & 0.7825 & 57.50\% \\
+Orientation Noise 0.025 & 18.1558 & -16.12\% & 0.5134 & -20.29\% & 0.7866 & 58.33\% \\
+Orientation Noise 0.03 & 17.7150 & -18.15\% & 0.5076 & -21.20\% & 0.7924 & 59.49\% \\
+Orientation Noise 0.035 & 17.1806 & -20.62\% & 0.4908 & -23.80\% & 0.7919 & 59.40\% \\
+Orientation Noise 0.04 & 17.0493 & -21.23\% & 0.4913 & -23.73\% & 0.7970 & 60.42\% \\
+Orientation Noise 0.045 & 16.5414 & -23.58\% & 0.4852 & -24.68\% & 0.8025 & 61.53\% \\
+Orientation Noise 0.05 & 16.2900 & -24.74\% & 0.4802 & -25.45\% & 0.8071 & 62.45\% \\
+Orientation Noise 0.0525 & 16.1762 & -25.26\% & 0.4778 & -25.82\% & 0.8152 & 64.10\% \\
+Orientation Noise 0.055 & 15.9619 & -26.25\% & 0.4774 & -25.88\% & 0.8107 & 63.18\% \\
+Orientation Noise 0.0575 & 15.7604 & -27.18\% & 0.4784 & -25.73\% & 0.8242 & 65.90\% \\
+Orientation Noise 0.06 & 15.5567 & -28.13\% & 0.4762 & -26.07\% & 0.8321 & 67.49\% \\
+\hline
+Combined Noise 0.005 & 19.7411 & -8.79\% & 0.5542 & -13.96\% & 0.7447 & 49.90\% \\
+Combined Noise 0.01 & 19.2099 & -11.25\% & 0.5389 & -16.35\% & 0.7825 & 57.51\% \\
+Combined Noise 0.015 & 18.6012 & -14.06\% & 0.5257 & -18.40\% & 0.7747 & 55.94\% \\
+Combined Noise 0.02 & 18.2288 & -15.78\% & 0.5123 & -20.46\% & 0.7784 & 56.68\% \\
+Combined Noise 0.025 & 17.6029 & -18.67\% & 0.5034 & -21.86\% & 0.7896 & 58.93\% \\
+Combined Noise 0.03 & 17.3719 & -19.74\% & 0.4972 & -22.82\% & 0.7871 & 58.43\% \\
+Combined Noise 0.035 & 16.4160 & -24.15\% & 0.4814 & -25.27\% & 0.8084 & 62.72\% \\
+Combined Noise 0.04 & 16.4030 & -24.21\% & 0.4812 & -25.30\% & 0.8074 & 62.51\% \\
+Combined Noise 0.045 & 16.0332 & -25.92\% & 0.4774 & -25.89\% & 0.8150 & 64.06\% \\
+Combined Noise 0.05 & 15.3130 & -29.25\% & 0.4786 & -25.70\% & 0.8429 & 69.66\% \\
+Combined Noise 0.0525 & 15.3868 & -28.91\% & 0.4794 & -25.57\% & 0.8407 & 69.21\% \\
+Combined Noise 0.055 & 14.7207 & -31.99\% & 0.4800 & -25.48\% & 0.8737 & 75.86\% \\
+Combined Noise 0.0575 & 14.7249 & -31.97\% & 0.4779 & -25.81\% & 0.8729 & 75.69\% \\
+Combined Noise 0.06 & 13.6104 & -37.12\% & 0.4666 & -27.56\% & 0.9381 & 88.82\% \\
+\hline
+Positional Noise 0.005 & 20.8811 & -3.52\% & 0.5847 & -9.23\% & 0.6616 & 33.18\% \\
+Positional Noise 0.01 & 20.1028 & -7.12\% & 0.5633 & -12.55\% & 0.7121 & 43.34\% \\
+Positional Noise 0.015 & 19.7782 & -8.62\% & 0.5531 & -14.14\% & 0.7328 & 47.51\% \\
+Positional Noise 0.02 & 19.5284 & -9.78\% & 0.5466 & -15.14\% & 0.7524 & 51.45\% \\
+Positional Noise 0.025 & 19.4028 & -10.36\% & 0.5425 & -15.78\% & 0.7549 & 51.95\% \\
+Positional Noise 0.03 & 18.5724 & -14.19\% & 0.5308 & -17.61\% & 0.7566 & 52.29\% \\
+Positional Noise 0.035 & 18.9719 & -12.35\% & 0.5342 & -17.07\% & 0.7621 & 53.40\% \\
+Positional Noise 0.04 & 18.4874 & -14.58\% & 0.5284 & -17.97\% & 0.7688 & 54.76\% \\
+Positional Noise 0.045 & 18.3621 & -15.16\% & 0.5258 & -18.38\% & 0.7764 & 56.28\% \\
+Positional Noise 0.05 & 18.1059 & -16.35\% & 0.5232 & -18.78\% & 0.7735 & 55.69\% \\
+Positional Noise 0.0525 & 17.9893 & -16.89\% & 0.5197 & -19.32\% & 0.7752 & 56.03\% \\
+Positional Noise 0.055 & 17.9928 & -16.87\% & 0.5198 & -19.31\% & 0.7768 & 56.37\% \\
+Positional Noise 0.0575 & 18.0295 & -16.70\% & 0.5189 & -19.44\% & 0.7787 & 56.75\% \\
+Positional Noise 0.06 & 17.8762 & -17.41\% & 0.5160 & -19.90\% & 0.7756 & 56.12\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Stump dataset is used. Color noise degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.6441 & - & 0.6442 & - & 0.4968 & - \\
+\hline
+PnS Blue Channel 5 & 21.4807 & -0.75\% & 0.6349 & -1.44\% & 0.5032 & 1.28\% \\
+PnS Blue Channel 10 & 21.1845 & -2.12\% & 0.6318 & -1.93\% & 0.5302 & 6.72\% \\
+PnS Blue Channel 15 & 20.3496 & -5.98\% & 0.6142 & -4.65\% & 0.5729 & 15.32\% \\
+PnS Blue Channel 20 & 20.1691 & -6.81\% & 0.6113 & -5.11\% & 0.5811 & 16.96\% \\
+PnS Blue Channel 25 & 19.7710 & -8.65\% & 0.6068 & -5.80\% & 0.6069 & 22.15\% \\
+PnS Blue Channel 30 & 19.4415 & -10.18\% & 0.6055 & -6.00\% & 0.6099 & 22.76\% \\
+PnS Blue Channel 35 & 19.2028 & -11.28\% & 0.5987 & -7.06\% & 0.6277 & 26.34\% \\
+PnS Blue Channel 40 & 18.7562 & -13.34\% & 0.5972 & -7.29\% & 0.6277 & 26.35\% \\
+\hline
+PnS Green Channel 5 & 21.2183 & -1.97\% & 0.6066 & -5.83\% & 0.5865 & 18.06\% \\
+PnS Green Channel 10 & 21.1760 & -2.16\% & 0.5940 & -7.79\% & 0.6413 & 29.08\% \\
+PnS Green Channel 15 & 20.4336 & -5.59\% & 0.5841 & -9.32\% & 0.6890 & 38.69\% \\
+PnS Green Channel 20 & 20.1245 & -7.02\% & 0.5774 & -10.37\% & 0.7199 & 44.91\% \\
+PnS Green Channel 25 & 19.4852 & -9.97\% & 0.5704 & -11.45\% & 0.7486 & 50.69\% \\
+PnS Green Channel 30 & 19.0262 & -12.09\% & 0.5659 & -12.15\% & 0.7610 & 53.18\% \\
+PnS Green Channel 35 & 18.7749 & -13.26\% & 0.5626 & -12.67\% & 0.7922 & 59.47\% \\
+PnS Green Channel 40 & 18.3037 & -15.43\% & 0.5584 & -13.31\% & 0.8044 & 61.91\% \\
+\hline
+Image Noise 16 & 21.6096 & -0.16\% & 0.6313 & -2.00\% & 0.5187 & 4.40\% \\
+Image Noise 32 & 21.2883 & -1.64\% & 0.6100 & -5.30\% & 0.5698 & 14.70\% \\
+Image Noise 48 & 21.3284 & -1.46\% & 0.6005 & -6.78\% & 0.5822 & 17.19\% \\
+Image Noise 64 & 20.7396 & -4.18\% & 0.5847 & -9.24\% & 0.6307 & 26.96\% \\
+Image Noise 80 & 19.9930 & -7.63\% & 0.5714 & -11.29\% & 0.6428 & 29.38\% \\
+Image Noise 96 & 19.3059 & -10.80\% & 0.5612 & -12.87\% & 0.6749 & 35.85\% \\
+Image Noise 112 & 18.6794 & -13.70\% & 0.5483 & -14.88\% & 0.7090 & 42.70\% \\
+Image Noise 128 & 17.7991 & -17.76\% & 0.5398 & -16.20\% & 0.7363 & 48.21\% \\
+\hline
+PnS Red Channel 5 & 21.0461 & -2.76\% & 0.6275 & -2.59\% & 0.5302 & 6.72\% \\
+PnS Red Channel 10 & 21.0669 & -2.67\% & 0.6158 & -4.40\% & 0.5666 & 14.06\% \\
+PnS Red Channel 15 & 20.4525 & -5.51\% & 0.6011 & -6.68\% & 0.6185 & 24.49\% \\
+PnS Red Channel 20 & 20.0787 & -7.23\% & 0.5953 & -7.59\% & 0.6332 & 27.45\% \\
+PnS Red Channel 25 & 19.5380 & -9.73\% & 0.5929 & -7.96\% & 0.6575 & 32.34\% \\
+PnS Red Channel 30 & 19.1957 & -11.31\% & 0.5882 & -8.69\% & 0.6851 & 37.90\% \\
+PnS Red Channel 35 & 18.5244 & -14.41\% & 0.5837 & -9.39\% & 0.6955 & 40.00\% \\
+PnS Red Channel 40 & 17.9064 & -17.27\% & 0.5794 & -10.06\% & 0.7218 & 45.29\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Stump dataset is used. Lightning degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.6441 & - & 0.6442 & - & 0.4968 & - \\
+\hline
+Gamma Correction 5 & 21.3195 & -1.50\% & 0.6424 & -0.28\% & 0.4979 & 0.22\% \\
+Gamma Correction 10 & 20.7701 & -4.04\% & 0.6312 & -2.01\% & 0.5168 & 4.02\% \\
+Gamma Correction 15 & 21.5434 & -0.46\% & 0.6358 & -1.29\% & 0.5065 & 1.95\% \\
+Gamma Correction 20 & 21.7970 & 0.71\% & 0.6318 & -1.92\% & 0.5135 & 3.35\% \\
+Gamma Correction 25 & 21.0898 & -2.56\% & 0.6321 & -1.87\% & 0.5031 & 1.27\% \\
+Gamma Correction 30 & 20.4786 & -5.38\% & 0.6275 & -2.58\% & 0.5105 & 2.76\% \\
+Gamma Correction 35 & 21.3096 & -1.55\% & 0.6253 & -2.94\% & 0.5176 & 4.19\% \\
+Gamma Correction 40 & 21.1637 & -2.22\% & 0.6206 & -3.66\% & 0.5308 & 6.84\% \\
+\hline
+Saturation Change 0.1 & 21.8179 & 0.80\% & 0.6543 & 1.57\% & 0.4738 & -4.62\% \\
+Saturation Change 0.2 & 21.7011 & 0.26\% & 0.6441 & -0.02\% & 0.4933 & -0.71\% \\
+Saturation Change 0.3 & 21.7549 & 0.51\% & 0.6533 & 1.42\% & 0.4761 & -4.16\% \\
+Saturation Change 0.4 & 21.2867 & -1.65\% & 0.6428 & -0.22\% & 0.4980 & 0.25\% \\
+Saturation Change 0.5 & 21.6318 & -0.06\% & 0.6406 & -0.56\% & 0.5027 & 1.18\% \\
+Saturation Change 0.6 & 21.4881 & -0.72\% & 0.6428 & -0.21\% & 0.4978 & 0.19\% \\
+Saturation Change 0.7 & 21.2451 & -1.84\% & 0.6408 & -0.52\% & 0.5156 & 3.78\% \\
+Saturation Change 0.8 & 21.2673 & -1.74\% & 0.6418 & -0.37\% & 0.5074 & 2.13\% \\
+Saturation Change 0.9 & 21.3376 & -1.42\% & 0.6409 & -0.50\% & 0.5034 & 1.33\% \\
+Saturation Change 1.0 & 21.2260 & -1.93\% & 0.6319 & -1.90\% & 0.5209 & 4.84\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Stump dataset is used. Reductions degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.6441 & - & 0.6442 & - & 0.4968 & - \\
+\hline
+Reduced Image Set 2 & 21.5448 & -0.46\% & 0.6490 & 0.75\% & 0.4894 & -1.49\% \\
+Reduced Image Set 3 & 21.3848 & -1.20\% & 0.6334 & -1.67\% & 0.5066 & 1.97\% \\
+Reduced Image Set 4 & 21.0224 & -2.87\% & 0.6205 & -3.67\% & 0.5268 & 6.03\% \\
+Reduced Image Set 5 & 21.2112 & -2.00\% & 0.6177 & -4.11\% & 0.5274 & 6.17\% \\
+Reduced Image Set 6 & 21.3014 & -1.58\% & 0.6218 & -3.47\% & 0.5204 & 4.74\% \\
+Reduced Image Set 7 & 20.7039 & -4.34\% & 0.6014 & -6.64\% & 0.5384 & 8.38\% \\
+Reduced Image Set 8 & 19.7089 & -8.94\% & 0.5766 & -10.48\% & 0.5788 & 16.51\% \\
+\hline
+Height Reduction 10 & 17.4470 & -19.39\% & 0.5142 & -20.17\% & 0.6370 & 28.21\% \\
+Height Reduction 20 & 17.8679 & -17.45\% & 0.5218 & -19.00\% & 0.6413 & 29.08\% \\
+Height Reduction 30 & 18.1890 & -15.96\% & 0.5444 & -15.49\% & 0.6431 & 29.45\% \\
+Height Reduction 40 & 18.6031 & -14.05\% & 0.5602 & -13.03\% & 0.6004 & 20.85\% \\
+Height Reduction 50 & 18.8742 & -12.80\% & 0.5694 & -11.60\% & 0.5748 & 15.71\% \\
+Height Reduction 60 & 19.3049 & -10.81\% & 0.5825 & -9.57\% & 0.5630 & 13.33\% \\
+Height Reduction 70 & 19.5856 & -9.51\% & 0.5858 & -9.07\% & 0.5551 & 11.73\% \\
+Height Reduction 80 & 18.8283 & -13.01\% & 0.5678 & -11.85\% & 0.5796 & 16.66\% \\
+Height Reduction 90 & 19.2386 & -11.11\% & 0.5772 & -10.40\% & 0.5684 & 14.42\% \\
+Height Reduction 100 & 12.8542 & -40.61\% & 0.4420 & -31.38\% & 0.8786 & 76.84\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Stump dataset is used. Camera noise degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.5351 & - & 0.6412 & - & 0.4959 & - \\
+\hline
+Orientation Noise 0.005 & 20.1234 & -6.56\% & 0.5590 & -12.82\% & 0.7253 & 46.26\% \\
+Orientation Noise 0.01 & 19.5546 & -9.20\% & 0.5429 & -15.34\% & 0.7658 & 54.43\% \\
+Orientation Noise 0.015 & 18.6929 & -13.20\% & 0.5283 & -17.60\% & 0.7747 & 56.23\% \\
+Orientation Noise 0.02 & 18.4919 & -14.13\% & 0.5182 & -19.18\% & 0.7762 & 56.53\% \\
+Orientation Noise 0.025 & 18.2065 & -15.46\% & 0.5151 & -19.66\% & 0.7825 & 57.79\% \\
+Orientation Noise 0.03 & 17.6156 & -18.20\% & 0.5015 & -21.79\% & 0.7885 & 59.01\% \\
+Orientation Noise 0.035 & 17.2037 & -20.11\% & 0.4901 & -23.57\% & 0.7894 & 59.19\% \\
+Orientation Noise 0.04 & 17.1351 & -20.43\% & 0.4915 & -23.35\% & 0.7900 & 59.31\% \\
+Orientation Noise 0.045 & 16.7849 & -22.06\% & 0.4871 & -24.04\% & 0.8004 & 61.41\% \\
+Orientation Noise 0.05 & 16.1590 & -24.96\% & 0.4837 & -24.56\% & 0.8135 & 64.04\% \\
+Orientation Noise 0.0525 & 16.0302 & -25.56\% & 0.4800 & -25.14\% & 0.8184 & 65.03\% \\
+Orientation Noise 0.055 & 16.2103 & -24.73\% & 0.4815 & -24.91\% & 0.8125 & 63.85\% \\
+Orientation Noise 0.0575 & 15.9425 & -25.97\% & 0.4782 & -25.42\% & 0.8177 & 64.89\% \\
+Orientation Noise 0.06 & 15.7483 & -26.87\% & 0.4780 & -25.46\% & 0.8238 & 66.13\% \\
+\hline
+Combined Noise 0.005 & 19.8653 & -7.75\% & 0.5536 & -13.66\% & 0.7471 & 50.65\% \\
+Combined Noise 0.01 & 19.2783 & -10.48\% & 0.5389 & -15.95\% & 0.7791 & 57.11\% \\
+Combined Noise 0.015 & 18.7427 & -12.97\% & 0.5252 & -18.10\% & 0.7726 & 55.81\% \\
+Combined Noise 0.02 & 18.1329 & -15.80\% & 0.5161 & -19.51\% & 0.7800 & 57.29\% \\
+Combined Noise 0.025 & 17.6899 & -17.86\% & 0.5057 & -21.13\% & 0.7871 & 58.72\% \\
+Combined Noise 0.03 & 17.2488 & -19.90\% & 0.4929 & -23.13\% & 0.7823 & 57.76\% \\
+Combined Noise 0.035 & 16.9501 & -21.29\% & 0.4888 & -23.77\% & 0.7963 & 60.58\% \\
+Combined Noise 0.04 & 16.2859 & -24.38\% & 0.4794 & -25.24\% & 0.8081 & 62.95\% \\
+Combined Noise 0.045 & 16.3010 & -24.31\% & 0.4808 & -25.01\% & 0.8112 & 63.59\% \\
+Combined Noise 0.05 & 15.2337 & -29.26\% & 0.4785 & -25.37\% & 0.8419 & 69.77\% \\
+Combined Noise 0.0525 & 15.4487 & -28.26\% & 0.4806 & -25.05\% & 0.8404 & 69.48\% \\
+Combined Noise 0.055 & 14.7156 & -31.67\% & 0.4768 & -25.65\% & 0.8682 & 75.09\% \\
+Combined Noise 0.0575 & 13.1943 & -38.73\% & 0.4651 & -27.46\% & 0.9577 & 93.13\% \\
+Combined Noise 0.06 & 12.9548 & -39.84\% & 0.4666 & -27.23\% & 0.9654 & 94.69\% \\
+\hline
+Positional Noise 0.005 & 20.9389 & -2.77\% & 0.5856 & -8.68\% & 0.6617 & 33.44\% \\
+Positional Noise 0.01 & 20.4925 & -4.84\% & 0.5650 & -11.89\% & 0.7212 & 45.43\% \\
+Positional Noise 0.015 & 20.0197 & -7.04\% & 0.5537 & -13.64\% & 0.7423 & 49.68\% \\
+Positional Noise 0.02 & 19.4860 & -9.52\% & 0.5492 & -14.34\% & 0.7636 & 53.98\% \\
+Positional Noise 0.025 & 19.3577 & -10.11\% & 0.5435 & -15.24\% & 0.7546 & 52.17\% \\
+Positional Noise 0.03 & 19.2124 & -10.79\% & 0.5379 & -16.11\% & 0.7684 & 54.96\% \\
+Positional Noise 0.035 & 18.5739 & -13.75\% & 0.5322 & -17.00\% & 0.7764 & 56.57\% \\
+Positional Noise 0.04 & 18.4975 & -14.11\% & 0.5272 & -17.78\% & 0.7669 & 54.65\% \\
+Positional Noise 0.045 & 18.3561 & -14.76\% & 0.5241 & -18.26\% & 0.7720 & 55.68\% \\
+Positional Noise 0.05 & 18.2792 & -15.12\% & 0.5238 & -18.32\% & 0.7751 & 56.30\% \\
+Positional Noise 0.0525 & 17.7225 & -17.70\% & 0.5174 & -19.31\% & 0.7744 & 56.16\% \\
+Positional Noise 0.055 & 18.1130 & -15.89\% & 0.5193 & -19.01\% & 0.7796 & 57.21\% \\
+Positional Noise 0.0575 & 17.9098 & -16.83\% & 0.5162 & -19.50\% & 0.7736 & 56.00\% \\
+Positional Noise 0.06 & 18.0343 & -16.26\% & 0.5165 & -19.45\% & 0.7729 & 55.86\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Stump dataset is used. Color noise degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.5351 & - & 0.6412 & - & 0.4959 & - \\
+\hline
+PnS Blue Channel 5 & 21.3430 & -0.89\% & 0.6369 & -0.68\% & 0.5057 & 1.98\% \\
+PnS Blue Channel 10 & 21.3186 & -1.01\% & 0.6243 & -2.63\% & 0.5387 & 8.63\% \\
+PnS Blue Channel 15 & 20.6056 & -4.32\% & 0.6165 & -3.86\% & 0.5640 & 13.74\% \\
+PnS Blue Channel 20 & 20.2555 & -5.94\% & 0.6110 & -4.72\% & 0.5846 & 17.88\% \\
+PnS Blue Channel 25 & 19.7836 & -8.13\% & 0.6061 & -5.48\% & 0.5961 & 20.21\% \\
+PnS Blue Channel 30 & 19.5547 & -9.20\% & 0.6041 & -5.78\% & 0.6153 & 24.08\% \\
+PnS Blue Channel 35 & 18.8867 & -12.30\% & 0.5961 & -7.03\% & 0.6282 & 26.69\% \\
+PnS Blue Channel 40 & 18.4982 & -14.10\% & 0.5968 & -6.92\% & 0.6294 & 26.92\% \\
+\hline
+PnS Green Channel 5 & 21.3465 & -0.88\% & 0.6067 & -5.39\% & 0.5909 & 19.16\% \\
+PnS Green Channel 10 & 21.1212 & -1.92\% & 0.5937 & -7.41\% & 0.6477 & 30.61\% \\
+PnS Green Channel 15 & 20.4739 & -4.93\% & 0.5846 & -8.83\% & 0.6853 & 38.20\% \\
+PnS Green Channel 20 & 19.8933 & -7.62\% & 0.5755 & -10.24\% & 0.7161 & 44.40\% \\
+PnS Green Channel 25 & 19.6429 & -8.79\% & 0.5716 & -10.85\% & 0.7498 & 51.20\% \\
+PnS Green Channel 30 & 19.0013 & -11.77\% & 0.5688 & -11.29\% & 0.7533 & 51.91\% \\
+PnS Green Channel 35 & 18.7412 & -12.97\% & 0.5604 & -12.60\% & 0.7889 & 59.09\% \\
+PnS Green Channel 40 & 18.4131 & -14.50\% & 0.5565 & -13.22\% & 0.7988 & 61.08\% \\
+\hline
+Image Noise 16 & 21.1777 & -1.66\% & 0.6277 & -2.10\% & 0.5283 & 6.54\% \\
+Image Noise 32 & 21.1344 & -1.86\% & 0.6095 & -4.95\% & 0.5713 & 15.21\% \\
+Image Noise 48 & 21.2165 & -1.48\% & 0.5945 & -7.29\% & 0.5990 & 20.78\% \\
+Image Noise 64 & 20.9769 & -2.59\% & 0.5844 & -8.85\% & 0.6212 & 25.27\% \\
+Image Noise 80 & 20.0903 & -6.71\% & 0.5711 & -10.94\% & 0.6517 & 31.42\% \\
+Image Noise 96 & 19.2171 & -10.76\% & 0.5580 & -12.98\% & 0.6758 & 36.27\% \\
+Image Noise 112 & 18.9284 & -12.10\% & 0.5491 & -14.37\% & 0.7110 & 43.39\% \\
+Image Noise 128 & 18.1134 & -15.89\% & 0.5423 & -15.42\% & 0.7296 & 47.13\% \\
+\hline
+PnS Red Channel 5 & 21.2679 & -1.24\% & 0.6311 & -1.58\% & 0.5235 & 5.56\% \\
+PnS Red Channel 10 & 21.0484 & -2.26\% & 0.6128 & -4.43\% & 0.5746 & 15.86\% \\
+PnS Red Channel 15 & 20.6564 & -4.08\% & 0.6019 & -6.13\% & 0.6161 & 24.25\% \\
+PnS Red Channel 20 & 20.0421 & -6.93\% & 0.5956 & -7.11\% & 0.6379 & 28.64\% \\
+PnS Red Channel 25 & 19.5453 & -9.24\% & 0.5919 & -7.70\% & 0.6651 & 34.11\% \\
+PnS Red Channel 30 & 19.0807 & -11.40\% & 0.5859 & -8.62\% & 0.6905 & 39.25\% \\
+PnS Red Channel 35 & 18.4613 & -14.27\% & 0.5838 & -8.96\% & 0.6956 & 40.28\% \\
+PnS Red Channel 40 & 18.0476 & -16.19\% & 0.5765 & -10.09\% & 0.7099 & 43.15\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Stump dataset is used. Lightning degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.5351 & - & 0.6412 & - & 0.4959 & - \\
+\hline
+Gamma Correction 5 & 21.7712 & 1.10\% & 0.6464 & 0.82\% & 0.4861 & -1.97\% \\
+Gamma Correction 10 & 20.9525 & -2.71\% & 0.6332 & -1.26\% & 0.5107 & 2.98\% \\
+Gamma Correction 15 & 21.5076 & -0.13\% & 0.6360 & -0.81\% & 0.5040 & 1.64\% \\
+Gamma Correction 20 & 21.6293 & 0.44\% & 0.6275 & -2.13\% & 0.5231 & 5.48\% \\
+Gamma Correction 25 & 21.6196 & 0.39\% & 0.6325 & -1.35\% & 0.5214 & 5.14\% \\
+Gamma Correction 30 & 20.1059 & -6.64\% & 0.6226 & -2.91\% & 0.5063 & 2.11\% \\
+Gamma Correction 35 & 21.1396 & -1.84\% & 0.6276 & -2.12\% & 0.5167 & 4.20\% \\
+Gamma Correction 40 & 21.2736 & -1.21\% & 0.6214 & -3.09\% & 0.5362 & 8.12\% \\
+\hline
+Saturation Change 0.1 & 21.4758 & -0.28\% & 0.6440 & 0.44\% & 0.4904 & -1.11\% \\
+Saturation Change 0.2 & 21.5277 & -0.03\% & 0.6439 & 0.41\% & 0.4925 & -0.68\% \\
+Saturation Change 0.3 & 21.6525 & 0.55\% & 0.6505 & 1.45\% & 0.4810 & -3.00\% \\
+Saturation Change 0.4 & 21.4488 & -0.40\% & 0.6472 & 0.93\% & 0.4839 & -2.41\% \\
+Saturation Change 0.5 & 21.4673 & -0.31\% & 0.6395 & -0.27\% & 0.5086 & 2.56\% \\
+Saturation Change 0.6 & 21.4364 & -0.46\% & 0.6378 & -0.53\% & 0.5025 & 1.32\% \\
+Saturation Change 0.7 & 21.4886 & -0.22\% & 0.6377 & -0.55\% & 0.5148 & 3.81\% \\
+Saturation Change 0.8 & 21.1576 & -1.75\% & 0.6361 & -0.79\% & 0.5164 & 4.14\% \\
+Saturation Change 0.9 & 21.3646 & -0.79\% & 0.6440 & 0.44\% & 0.4868 & -1.83\% \\
+Saturation Change 1.0 & 21.3504 & -0.86\% & 0.6364 & -0.76\% & 0.5181 & 4.48\% \\
+\hline
+\end{tabular}}
+\end{table}
+
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Stump dataset is used. Reductions degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.5351 & - & 0.6412 & - & 0.4959 & - \\
+\hline
+Reduced Image Set 2 & 21.7325 & 0.92\% & 0.6448 & 0.56\% & 0.4983 & 0.49\% \\
+Reduced Image Set 3 & 21.5861 & 0.24\% & 0.6344 & -1.06\% & 0.5041 & 1.65\% \\
+Reduced Image Set 4 & 21.0452 & -2.28\% & 0.6151 & -4.07\% & 0.5327 & 7.41\% \\
+Reduced Image Set 5 & 21.2751 & -1.21\% & 0.6160 & -3.93\% & 0.5275 & 6.37\% \\
+Reduced Image Set 6 & 21.3301 & -0.95\% & 0.6229 & -2.85\% & 0.5105 & 2.94\% \\
+Reduced Image Set 7 & 20.8239 & -3.30\% & 0.6038 & -5.83\% & 0.5396 & 8.82\% \\
+Reduced Image Set 8 & 19.7881 & -8.11\% & 0.5794 & -9.64\% & 0.5692 & 14.77\% \\
+\hline
+Height Reduction 10 & 17.4045 & -19.18\% & 0.5143 & -19.80\% & 0.6479 & 30.64\% \\
+Height Reduction 20 & 17.8401 & -17.16\% & 0.5231 & -18.41\% & 0.6452 & 30.11\% \\
+Height Reduction 30 & 18.1700 & -15.63\% & 0.5427 & -15.37\% & 0.6423 & 29.52\% \\
+Height Reduction 40 & 18.6814 & -13.25\% & 0.5620 & -12.36\% & 0.6005 & 21.09\% \\
+Height Reduction 50 & 18.9581 & -11.97\% & 0.5674 & -11.51\% & 0.5715 & 15.25\% \\
+Height Reduction 60 & 19.3677 & -10.06\% & 0.5830 & -9.08\% & 0.5624 & 13.41\% \\
+Height Reduction 70 & 20.0015 & -7.12\% & 0.5905 & -7.91\% & 0.5461 & 10.13\% \\
+Height Reduction 80 & 18.7081 & -13.13\% & 0.5678 & -11.46\% & 0.5765 & 16.25\% \\
+Height Reduction 90 & 18.9613 & -11.95\% & 0.5753 & -10.28\% & 0.5691 & 14.76\% \\
+Height Reduction 100 & 12.8764 & -40.21\% & 0.4439 & -30.77\% & 0.8714 & 75.72\% \\
+\hline
+\end{tabular}}
+\end{table}
+

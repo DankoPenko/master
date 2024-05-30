@@ -1,0 +1,24 @@
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Stump dataset is used. Camera noise degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.9259 & - & 0.6284 & - & 0.5139 & - \\
+\hline
+Combined Noise 0.005 & 21.6127 & -1.43\% & 0.6199 & -1.36\% & 0.5119 & -0.37\% \\
+Combined Noise 0.01 & 21.0954 & -3.79\% & 0.6025 & -4.13\% & 0.5230 & 1.78\% \\
+Combined Noise 0.015 & 20.7864 & -5.20\% & 0.5912 & -5.93\% & 0.5387 & 4.84\% \\
+Combined Noise 0.02 & 20.9120 & -4.62\% & 0.5883 & -6.39\% & 0.5492 & 6.89\% \\
+Combined Noise 0.025 & 20.2827 & -7.49\% & 0.5691 & -9.44\% & 0.5970 & 16.17\% \\
+Combined Noise 0.03 & 19.8151 & -9.63\% & 0.5578 & -11.24\% & 0.6332 & 23.23\% \\
+Combined Noise 0.035 & 19.3456 & -11.77\% & 0.5444 & -13.36\% & 0.6876 & 33.81\% \\
+Combined Noise 0.04 & 18.5487 & -15.40\% & 0.5215 & -17.02\% & 0.7179 & 39.71\% \\
+Combined Noise 0.045 & 17.4119 & -20.59\% & 0.4887 & -22.23\% & 0.7257 & 41.23\% \\
+Combined Noise 0.05 & 14.9712 & -31.72\% & 0.4615 & -26.56\% & 0.7574 & 47.39\% \\
+Combined Noise 0.0525 & 14.0254 & -36.03\% & 0.4645 & -26.08\% & 0.7984 & 55.37\% \\
+Combined Noise 0.055 & 13.7486 & -37.30\% & 0.4680 & -25.53\% & 0.8160 & 58.80\% \\
+Combined Noise 0.0575 & 13.6754 & -37.63\% & 0.4727 & -24.78\% & 0.8327 & 62.06\% \\
+Combined Noise 0.06 & 13.4136 & -38.82\% & 0.4688 & -25.39\% & 0.8454 & 64.52\% \\
+\hline
+\end{tabular}}
+\end{table}

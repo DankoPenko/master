@@ -1,0 +1,17 @@
+{
+  "experiment_name": "lego-pns-red-noise-percent-15",
+  "method_name": "instant-ngp",
+  "checkpoint": "C:\\Stuff\\Dataset-creation\\notebooks\\outputs_ngp_lego_opt_on_degr\\lego-pns-red-noise-percent-15\\instant-ngp\\2024-03-25_113104\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 19.847749710083008,
+    "psnr_std": 4.419404029846191,
+    "ssim": 0.8395742774009705,
+    "ssim_std": 0.07908221334218979,
+    "lpips": 0.22313633561134338,
+    "lpips_std": 0.12333214282989502,
+    "num_rays_per_sec": 829311.0,
+    "num_rays_per_sec_std": 156679.0625,
+    "fps": 1.295798420906067,
+    "fps_std": 0.2448110282421112
+  }
+}

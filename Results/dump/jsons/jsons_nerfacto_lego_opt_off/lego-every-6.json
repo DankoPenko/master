@@ -1,0 +1,17 @@
+{
+  "experiment_name": "lego-every-6",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs\\lego-every-6\\nerfacto\\2024-02-19_133444\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 9.216657638549805,
+    "psnr_std": 1.157187819480896,
+    "ssim": 0.6629788875579834,
+    "ssim_std": 0.06969790905714035,
+    "lpips": 0.6913819909095764,
+    "lpips_std": 0.15773475170135498,
+    "num_rays_per_sec": 778980.5625,
+    "num_rays_per_sec_std": 45894.2890625,
+    "fps": 1.2171571254730225,
+    "fps_std": 0.07170982658863068
+  }
+}

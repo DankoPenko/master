@@ -1,0 +1,17 @@
+{
+  "experiment_name": "lego",
+  "method_name": "instant-ngp",
+  "checkpoint": "C:\\Stuff\\Dataset-creation\\notebooks\\outputs_ngp_lego_opt_off\\lego\\instant-ngp\\2024-03-04_030124\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 10.68343734741211,
+    "psnr_std": 1.1063307523727417,
+    "ssim": 0.5762337446212769,
+    "ssim_std": 0.05734858289361,
+    "lpips": 0.5495477914810181,
+    "lpips_std": 0.05476231500506401,
+    "num_rays_per_sec": 522541.25,
+    "num_rays_per_sec_std": 28431.41796875,
+    "fps": 0.8164706826210022,
+    "fps_std": 0.04442409425973892
+  }
+}

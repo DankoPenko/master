@@ -1,0 +1,17 @@
+{
+  "experiment_name": "stump-pns-green-noise-percent-30",
+  "method_name": "instant-ngp",
+  "checkpoint": "outputs\\stump-pns-green-noise-percent-30\\instant-ngp\\2024-02-26_090840\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 19.0262451171875,
+    "psnr_std": 0.8156006932258606,
+    "ssim": 0.5659016370773315,
+    "ssim_std": 0.05061916261911392,
+    "lpips": 0.7610286474227905,
+    "lpips_std": 0.022823158651590347,
+    "num_rays_per_sec": 304230.1875,
+    "num_rays_per_sec_std": 102537.15625,
+    "fps": 0.05057017505168915,
+    "fps_std": 0.017044074833393097
+  }
+}

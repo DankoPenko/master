@@ -1,0 +1,17 @@
+{
+  "experiment_name": "stump-noise-std-16",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs\\stump-noise-std-16\\nerfacto\\2024-01-08_010257\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 21.712881088256836,
+    "psnr_std": 1.685344934463501,
+    "ssim": 0.6210336089134216,
+    "ssim_std": 0.046493832021951675,
+    "lpips": 0.5376418828964233,
+    "lpips_std": 0.040520843118429184,
+    "num_rays_per_sec": 760892.8125,
+    "num_rays_per_sec_std": 21982.861328125,
+    "fps": 0.1264781951904297,
+    "fps_std": 0.0036540667060762644
+  }
+}

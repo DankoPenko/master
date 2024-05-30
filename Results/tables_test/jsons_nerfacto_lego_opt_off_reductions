@@ -1,0 +1,38 @@
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Lego dataset is used. Reductions degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 22.7211 & - & 0.8978 & - & 0.1081 & - \\
+\hline
+Reduced Image Set 2 & 13.7698 & -39.40\% & 0.7794 & -13.20\% & 0.3121 & 188.65\% \\
+Reduced Image Set 3 & 8.8811 & -60.91\% & 0.6317 & -29.64\% & 0.6729 & 522.38\% \\
+Reduced Image Set 4 & 9.6842 & -57.38\% & 0.6519 & -27.40\% & 0.6399 & 491.85\% \\
+Reduced Image Set 5 & 9.6234 & -57.65\% & 0.6509 & -27.51\% & 0.7269 & 572.28\% \\
+Reduced Image Set 6 & 9.2167 & -59.44\% & 0.6630 & -26.16\% & 0.6914 & 539.44\% \\
+Reduced Image Set 7 & 9.8147 & -56.80\% & 0.6618 & -26.29\% & 0.6539 & 504.76\% \\
+Reduced Image Set 8 & 9.5751 & -57.86\% & 0.6693 & -25.45\% & 0.6298 & 482.47\% \\
+\hline
+Saturation Change 10 & 9.3575 & -58.82\% & 0.5670 & -36.85\% & 0.7739 & 615.77\% \\
+Saturation Change 100 & 12.0881 & -46.80\% & 0.5467 & -39.11\% & 0.6028 & 457.53\% \\
+Saturation Change 20 & 9.3753 & -58.74\% & 0.6190 & -31.06\% & 0.7558 & 599.00\% \\
+Saturation Change 30 & 9.4120 & -58.58\% & 0.6593 & -26.56\% & 0.7363 & 580.94\% \\
+Saturation Change 40 & 9.4884 & -58.24\% & 0.5805 & -35.35\% & 0.7873 & 628.14\% \\
+Saturation Change 50 & 9.9443 & -56.23\% & 0.6032 & -32.82\% & 0.6653 & 515.32\% \\
+Saturation Change 60 & 9.7805 & -56.95\% & 0.6425 & -28.44\% & 0.6312 & 483.73\% \\
+Saturation Change 70 & 9.7982 & -56.88\% & 0.5657 & -36.99\% & 0.7231 & 568.73\% \\
+Saturation Change 80 & 9.9747 & -56.10\% & 0.5561 & -38.07\% & 0.6916 & 539.64\% \\
+Saturation Change 90 & 9.6212 & -57.66\% & 0.6653 & -25.90\% & 0.5605 & 418.35\% \\
+Saturation Change 0.1 & 22.7394 & 0.08\% & 0.8989 & 0.12\% & 0.1024 & -5.30\% \\
+Saturation Change 0.2 & 22.8638 & 0.63\% & 0.9014 & 0.40\% & 0.1060 & -1.94\% \\
+Saturation Change 0.3 & 22.3777 & -1.51\% & 0.8946 & -0.36\% & 0.1141 & 5.49\% \\
+Saturation Change 0.4 & 22.3100 & -1.81\% & 0.8919 & -0.66\% & 0.1159 & 7.19\% \\
+Saturation Change 0.5 & 22.7656 & 0.20\% & 0.9018 & 0.44\% & 0.0977 & -9.67\% \\
+Saturation Change 0.6 & 21.7770 & -4.16\% & 0.8871 & -1.20\% & 0.1226 & 13.39\% \\
+Saturation Change 0.7 & 21.9946 & -3.20\% & 0.8846 & -1.47\% & 0.1288 & 19.15\% \\
+Saturation Change 0.8 & 21.8538 & -3.82\% & 0.8794 & -2.05\% & 0.1367 & 26.40\% \\
+Saturation Change 0.9 & 21.1222 & -7.04\% & 0.8747 & -2.57\% & 0.1345 & 24.40\% \\
+Saturation Change 1.0 & 22.3543 & -1.61\% & 0.8874 & -1.16\% & 0.1185 & 9.59\% \\
+\hline
+\end{tabular}}
+\end{table}

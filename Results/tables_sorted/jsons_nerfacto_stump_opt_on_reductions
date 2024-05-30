@@ -1,0 +1,28 @@
+\begin{table}[H]
+\caption{Mean results achieved in the PSNR $\uparrow$, SSIM $\uparrow$ and LPIPS $\downarrow$ metrics, with the relative change compared to the benchmark setting. Stump dataset is used. Reductions degradations. Nerfacto model is used. Camera optimizer is enabled.}
+\scalebox{0.84}{\begin{tabular}{l|c|c|c|c|c|c}
+Experiment & PSNR & Rel. PSNR & SSIM & Rel. SSIM & LPIPS & Rel. LPIPS \\
+\hline
+Benchmark & 21.9259 & - & 0.6284 & - & 0.5139 & - \\
+\hline
+Reduced Image Set 2 & 21.6419 & -1.30\% & 0.6109 & -2.79\% & 0.4823 & -6.14\% \\
+Reduced Image Set 3 & 21.5450 & -1.74\% & 0.6173 & -1.76\% & 0.4722 & -8.10\% \\
+Reduced Image Set 4 & 21.7238 & -0.92\% & 0.6239 & -0.72\% & 0.4782 & -6.93\% \\
+Reduced Image Set 5 & 15.8181 & -27.86\% & 0.4972 & -20.89\% & 0.7049 & 37.17\% \\
+Reduced Image Set 6 & 20.5310 & -6.36\% & 0.5769 & -8.20\% & 0.4936 & -3.93\% \\
+Reduced Image Set 7 & 12.4749 & -43.10\% & 0.4465 & -28.95\% & 0.8642 & 68.18\% \\
+Reduced Image Set 8 & 11.9481 & -45.51\% & 0.4308 & -31.44\% & 0.8715 & 69.60\% \\
+\hline
+Height Reduction 10 & 12.7865 & -41.68\% & 0.4444 & -29.28\% & 0.8291 & 61.36\% \\
+Height Reduction 20 & 14.1284 & -35.56\% & 0.4533 & -27.87\% & 0.7743 & 50.69\% \\
+Height Reduction 30 & 17.0989 & -22.02\% & 0.5036 & -19.86\% & 0.6760 & 31.56\% \\
+Height Reduction 40 & 18.6738 & -14.83\% & 0.5379 & -14.40\% & 0.5861 & 14.05\% \\
+Height Reduction 50 & 19.0820 & -12.97\% & 0.5287 & -15.87\% & 0.5752 & 11.94\% \\
+Height Reduction 60 & 19.7434 & -9.95\% & 0.5590 & -11.04\% & 0.5170 & 0.62\% \\
+Height Reduction 70 & 17.2562 & -21.30\% & 0.5374 & -14.48\% & 0.6054 & 17.81\% \\
+Height Reduction 80 & 19.8750 & -9.35\% & 0.5546 & -11.75\% & 0.5099 & -0.78\% \\
+Height Reduction 90 & 19.3854 & -11.59\% & 0.5499 & -12.50\% & 0.5309 & 3.32\% \\
+Height Reduction 100 & 19.7438 & -9.95\% & 0.5506 & -12.38\% & 0.5302 & 3.18\% \\
+\hline
+\end{tabular}}
+\end{table}

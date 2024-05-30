@@ -1,0 +1,17 @@
+{
+  "experiment_name": "lego-pns-blue-noise-percent-40",
+  "method_name": "instant-ngp",
+  "checkpoint": "C:\\Stuff\\Dataset-creation\\notebooks\\outputs_ngp_lego_opt_on_degr\\lego-pns-blue-noise-percent-40\\instant-ngp\\2024-03-25_100210\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 18.63119888305664,
+    "psnr_std": 3.960205554962158,
+    "ssim": 0.8034651875495911,
+    "ssim_std": 0.07451292872428894,
+    "lpips": 0.25617700815200806,
+    "lpips_std": 0.11208286881446838,
+    "num_rays_per_sec": 805563.75,
+    "num_rays_per_sec_std": 183514.9375,
+    "fps": 1.2586934566497803,
+    "fps_std": 0.28674209117889404
+  }
+}

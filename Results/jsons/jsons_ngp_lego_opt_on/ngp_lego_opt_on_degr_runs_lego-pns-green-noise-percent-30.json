@@ -1,0 +1,17 @@
+{
+  "experiment_name": "lego-pns-green-noise-percent-30",
+  "method_name": "instant-ngp",
+  "checkpoint": "C:\\Stuff\\Dataset-creation\\notebooks\\outputs_ngp_lego_opt_on_degr\\lego-pns-green-noise-percent-30\\instant-ngp\\2024-03-25_104957\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 18.828454971313477,
+    "psnr_std": 3.980670928955078,
+    "ssim": 0.8166353106498718,
+    "ssim_std": 0.07596128433942795,
+    "lpips": 0.2894771993160248,
+    "lpips_std": 0.11796203255653381,
+    "num_rays_per_sec": 808936.25,
+    "num_rays_per_sec_std": 145898.265625,
+    "fps": 1.2639628648757935,
+    "fps_std": 0.2279660403728485
+  }
+}

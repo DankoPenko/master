@@ -1,0 +1,17 @@
+{
+  "experiment_name": "stump-range-70",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs\\stump-range-70\\nerfacto\\2024-03-07_092545\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 14.876322746276855,
+    "psnr_std": 1.8111852407455444,
+    "ssim": 0.5106546878814697,
+    "ssim_std": 0.0841081514954567,
+    "lpips": 0.6401167511940002,
+    "lpips_std": 0.11994397640228271,
+    "num_rays_per_sec": 754358.8125,
+    "num_rays_per_sec_std": 21681.033203125,
+    "fps": 0.1253920942544937,
+    "fps_std": 0.0036038935650140047
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "experiment_name": "lego-range-60",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs-nerfacto-lego-opt-off-satur-range\\lego-range-60\\nerfacto\\2024-03-18_021029\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 9.780450820922852,
+    "psnr_std": 0.96216881275177,
+    "ssim": 0.6424530148506165,
+    "ssim_std": 0.09706491976976395,
+    "lpips": 0.6311543583869934,
+    "lpips_std": 0.14913780987262726,
+    "num_rays_per_sec": 763690.875,
+    "num_rays_per_sec_std": 46461.48828125,
+    "fps": 1.1932669878005981,
+    "fps_std": 0.07259607315063477
+  }
+}

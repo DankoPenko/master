@@ -1,0 +1,17 @@
+{
+  "experiment_name": "stump",
+  "method_name": "instant-ngp",
+  "checkpoint": "outputs\\stump\\instant-ngp\\2024-02-26_035113\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 17.049280166625977,
+    "psnr_std": 0.9160299301147461,
+    "ssim": 0.4912940561771393,
+    "ssim_std": 0.06325511634349823,
+    "lpips": 0.7969985008239746,
+    "lpips_std": 0.039784420281648636,
+    "num_rays_per_sec": 158564.359375,
+    "num_rays_per_sec_std": 94303.46875,
+    "fps": 0.02635710872709751,
+    "fps_std": 0.015675444155931473
+  }
+}

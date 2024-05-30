@@ -1,0 +1,17 @@
+{
+  "experiment_name": "lego-gamma-40",
+  "method_name": "instant-ngp",
+  "checkpoint": "C:\\Stuff\\Dataset-creation\\notebooks\\outputs_ngp_lego_opt_on_degr\\lego-gamma-40\\instant-ngp\\2024-03-25_140444\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 19.63001823425293,
+    "psnr_std": 4.355147361755371,
+    "ssim": 0.8624905943870544,
+    "ssim_std": 0.07495927065610886,
+    "lpips": 0.19502706825733185,
+    "lpips_std": 0.11052653193473816,
+    "num_rays_per_sec": 787164.375,
+    "num_rays_per_sec_std": 155158.546875,
+    "fps": 1.2299443483352661,
+    "fps_std": 0.24243523180484772
+  }
+}

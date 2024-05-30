@@ -1,0 +1,421 @@
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{321}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{321}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{321}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{321}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{321}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the nerfacto_stump_opt_off_benchmark folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-every-2-000000-img.jpg} 
+        \caption{2}
+        \label{fig:stump-every-2-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-every-3-000000-img.jpg} 
+        \caption{3}
+        \label{fig:stump-every-3-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-every-5-000000-img.jpg} 
+        \caption{5}
+        \label{fig:stump-every-5-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-every-6-000000-img.jpg} 
+        \caption{6}
+        \label{fig:stump-every-6-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-every-8-000000-img.jpg} 
+        \caption{8}
+        \label{fig:stump-every-8-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the stump-every folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-gamma-5-000000-img.jpg} 
+        \caption{5}
+        \label{fig:stump-gamma-5-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-gamma-10-000000-img.jpg} 
+        \caption{10}
+        \label{fig:stump-gamma-10-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-gamma-20-000000-img.jpg} 
+        \caption{20}
+        \label{fig:stump-gamma-20-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-gamma-30-000000-img.jpg} 
+        \caption{30}
+        \label{fig:stump-gamma-30-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-gamma-40-000000-img.jpg} 
+        \caption{40}
+        \label{fig:stump-gamma-40-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the stump-gamma folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-noise-std-16-000000-img.jpg} 
+        \caption{16}
+        \label{fig:stump-noise-std-16-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-noise-std-32-000000-img.jpg} 
+        \caption{32}
+        \label{fig:stump-noise-std-32-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-noise-std-64-000000-img.jpg} 
+        \caption{64}
+        \label{fig:stump-noise-std-64-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-noise-std-96-000000-img.jpg} 
+        \caption{96}
+        \label{fig:stump-noise-std-96-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-noise-std-128-000000-img.jpg} 
+        \caption{128}
+        \label{fig:stump-noise-std-128-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the stump-noise-std folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-orientation-std-0.005-000000-img.jpg} 
+        \caption{0.005}
+        \label{fig:stump-orientation-std-0.005-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-orientation-std-0.02-000000-img.jpg} 
+        \caption{0.02}
+        \label{fig:stump-orientation-std-0.02-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-orientation-std-0.035-000000-img.jpg} 
+        \caption{0.035}
+        \label{fig:stump-orientation-std-0.035-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-orientation-std-0.05-000000-img.jpg} 
+        \caption{0.05}
+        \label{fig:stump-orientation-std-0.05-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-orientation-std-0.06-000000-img.jpg} 
+        \caption{0.06}
+        \label{fig:stump-orientation-std-0.06-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the stump-orientation-std folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pns-blue-noise-percent-5-000000-img.jpg} 
+        \caption{5}
+        \label{fig:stump-pns-blue-noise-percent-5-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pns-blue-noise-percent-10-000000-img.jpg} 
+        \caption{10}
+        \label{fig:stump-pns-blue-noise-percent-10-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pns-blue-noise-percent-20-000000-img.jpg} 
+        \caption{20}
+        \label{fig:stump-pns-blue-noise-percent-20-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pns-blue-noise-percent-30-000000-img.jpg} 
+        \caption{30}
+        \label{fig:stump-pns-blue-noise-percent-30-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pns-blue-noise-percent-40-000000-img.jpg} 
+        \caption{40}
+        \label{fig:stump-pns-blue-noise-percent-40-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the stump-pns-blue-noise-percent folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pns-green-noise-percent-5-000000-img.jpg} 
+        \caption{5}
+        \label{fig:stump-pns-green-noise-percent-5-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pns-green-noise-percent-10-000000-img.jpg} 
+        \caption{10}
+        \label{fig:stump-pns-green-noise-percent-10-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pns-green-noise-percent-20-000000-img.jpg} 
+        \caption{20}
+        \label{fig:stump-pns-green-noise-percent-20-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pns-green-noise-percent-30-000000-img.jpg} 
+        \caption{30}
+        \label{fig:stump-pns-green-noise-percent-30-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pns-green-noise-percent-40-000000-img.jpg} 
+        \caption{40}
+        \label{fig:stump-pns-green-noise-percent-40-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the stump-pns-green-noise-percent folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pns-red-noise-percent-5-000000-img.jpg} 
+        \caption{5}
+        \label{fig:stump-pns-red-noise-percent-5-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pns-red-noise-percent-10-000000-img.jpg} 
+        \caption{10}
+        \label{fig:stump-pns-red-noise-percent-10-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pns-red-noise-percent-20-000000-img.jpg} 
+        \caption{20}
+        \label{fig:stump-pns-red-noise-percent-20-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pns-red-noise-percent-30-000000-img.jpg} 
+        \caption{30}
+        \label{fig:stump-pns-red-noise-percent-30-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pns-red-noise-percent-40-000000-img.jpg} 
+        \caption{40}
+        \label{fig:stump-pns-red-noise-percent-40-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the stump-pns-red-noise-percent folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pos-orient-std-0.005-000000-img.jpg} 
+        \caption{0.005}
+        \label{fig:stump-pos-orient-std-0.005-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pos-orient-std-0.02-000000-img.jpg} 
+        \caption{0.02}
+        \label{fig:stump-pos-orient-std-0.02-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pos-orient-std-0.035-000000-img.jpg} 
+        \caption{0.035}
+        \label{fig:stump-pos-orient-std-0.035-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pos-orient-std-0.05-000000-img.jpg} 
+        \caption{0.05}
+        \label{fig:stump-pos-orient-std-0.05-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-pos-orient-std-0.06-000000-img.jpg} 
+        \caption{0.06}
+        \label{fig:stump-pos-orient-std-0.06-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the stump-pos-orient-std folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-position-std-0.005-000000-img.jpg} 
+        \caption{0.005}
+        \label{fig:stump-position-std-0.005-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-position-std-0.02-000000-img.jpg} 
+        \caption{0.02}
+        \label{fig:stump-position-std-0.02-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-position-std-0.035-000000-img.jpg} 
+        \caption{0.035}
+        \label{fig:stump-position-std-0.035-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-position-std-0.05-000000-img.jpg} 
+        \caption{0.05}
+        \label{fig:stump-position-std-0.05-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-position-std-0.06-000000-img.jpg} 
+        \caption{0.06}
+        \label{fig:stump-position-std-0.06-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the stump-position-std folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-range-10-000000-img.jpg} 
+        \caption{10}
+        \label{fig:stump-range-10-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-range-30-000000-img.jpg} 
+        \caption{30}
+        \label{fig:stump-range-30-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-range-50-000000-img.jpg} 
+        \caption{50}
+        \label{fig:stump-range-50-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-range-70-000000-img.jpg} 
+        \caption{70}
+        \label{fig:stump-range-70-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-range-100-000000-img.jpg} 
+        \caption{100}
+        \label{fig:stump-range-100-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the stump-range folder.}
+\end{figure}
+\begin{figure}[h]
+    \centering
+\begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/nerfacto_stump_opt_off_benchmark-000000-img.jpg} 
+        \caption{orig.}
+        \label{fig:nerfacto_stump_opt_off_benchmark-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-saturation-std-0.1-000000-img.jpg} 
+        \caption{0.1}
+        \label{fig:stump-saturation-std-0.1-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-saturation-std-0.3-000000-img.jpg} 
+        \caption{0.3}
+        \label{fig:stump-saturation-std-0.3-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-saturation-std-0.5-000000-img.jpg} 
+        \caption{0.5}
+        \label{fig:stump-saturation-std-0.5-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-saturation-std-0.7-000000-img.jpg} 
+        \caption{0.7}
+        \label{fig:stump-saturation-std-0.7-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.16\textwidth}
+        \includegraphics[width=\linewidth]{images/appendix_plots/nerfacto_stump_opt_off/stump-saturation-std-1.0-000000-img.jpg} 
+        \caption{1}
+        \label{fig:stump-saturation-std-1.0-000000-img.jpg}
+        \end{subfigure}\hfil % <-- added
+        \medskip
+\caption{Images from the stump-saturation-std folder.}
+\end{figure}
+%====================================% 

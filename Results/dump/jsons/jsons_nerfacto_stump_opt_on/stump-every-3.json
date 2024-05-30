@@ -1,0 +1,17 @@
+{
+  "experiment_name": "stump-every-3",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs\\stump-every-3\\nerfacto\\2024-01-14_025842\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 21.8085880279541,
+    "psnr_std": 1.4704761505126953,
+    "ssim": 0.6258639097213745,
+    "ssim_std": 0.041427869349718094,
+    "lpips": 0.4799650311470032,
+    "lpips_std": 0.04021858423948288,
+    "num_rays_per_sec": 761876.375,
+    "num_rays_per_sec_std": 21944.013671875,
+    "fps": 0.12664169073104858,
+    "fps_std": 0.0036476082168519497
+  }
+}

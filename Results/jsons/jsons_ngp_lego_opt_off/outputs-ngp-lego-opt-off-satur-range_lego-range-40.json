@@ -1,0 +1,17 @@
+{
+  "experiment_name": "lego-range-40",
+  "method_name": "instant-ngp",
+  "checkpoint": "outputs-ngp-lego-opt-off-satur-range\\lego-range-40\\instant-ngp\\2024-03-18_122913\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 9.238386154174805,
+    "psnr_std": 1.6279659271240234,
+    "ssim": 0.46915456652641296,
+    "ssim_std": 0.07538776844739914,
+    "lpips": 0.7274625301361084,
+    "lpips_std": 0.11381605267524719,
+    "num_rays_per_sec": 539707.875,
+    "num_rays_per_sec_std": 37110.3359375,
+    "fps": 0.8432935476303101,
+    "fps_std": 0.05798490345478058
+  }
+}
