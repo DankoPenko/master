@@ -1,0 +1,17 @@
+{
+  "experiment_name": "stump-offset-every-8",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs\\stump-offset-every-8\\nerfacto\\2024-01-29_133550\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 11.805046081542969,
+    "psnr_std": 1.3374576568603516,
+    "ssim": 0.4139256179332733,
+    "ssim_std": 0.059907592833042145,
+    "lpips": 0.8909238576889038,
+    "lpips_std": 0.07071913033723831,
+    "num_rays_per_sec": 714798.9375,
+    "num_rays_per_sec_std": 25675.826171875,
+    "fps": 0.1188163161277771,
+    "fps_std": 0.004267923068255186
+  }
+}

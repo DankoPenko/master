@@ -1,0 +1,5 @@
+The command at lego-pns-blue-noise-percent-10 exited with code: 0, 5.043591992060343
+The command at lego-pns-blue-noise-percent-15 exited with code: 0, 5.431130234400431
+The command at lego-pns-blue-noise-percent-20 exited with code: 0, 5.247502120335897
+The command at lego-pns-blue-noise-percent-25 exited with code: 0, 5.264156047503153
+#25.03

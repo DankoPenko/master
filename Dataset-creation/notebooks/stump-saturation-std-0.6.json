@@ -1,0 +1,17 @@
+{
+  "experiment_name": "stump-saturation-std-0",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs\\stump-saturation-std-0\\nerfacto\\2024-01-08_063403\\nerfstudio_models\\step-000014999.ckpt",
+  "results": {
+    "psnr": 21.41660499572754,
+    "psnr_std": 1.545799732208252,
+    "ssim": 0.6237677931785583,
+    "ssim_std": 0.045938387513160706,
+    "lpips": 0.5247722268104553,
+    "lpips_std": 0.03755318745970726,
+    "num_rays_per_sec": 727343.375,
+    "num_rays_per_sec_std": 24927.744140625,
+    "fps": 0.12090148776769638,
+    "fps_std": 0.004143574740737677
+  }
+}

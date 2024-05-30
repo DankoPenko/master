@@ -1,0 +1,25 @@
+The command at lego-pns-blue-noise-percent-10 exited with code: 0, 5.509549033641815
+The command at lego-pns-blue-noise-percent-15 exited with code: 0, 5.479397078355153
+The command at lego-pns-blue-noise-percent-20 exited with code: 0, 5.646829362710317
+The command at lego-pns-blue-noise-percent-25 exited with code: 0, 5.472753163178762
+The command at lego-pns-blue-noise-percent-30 exited with code: 0, 5.646541055043539
+The command at lego-pns-blue-noise-percent-35 exited with code: 0, 5.624513796965281
+The command at lego-pns-blue-noise-percent-40 exited with code: 0, 5.599714545408885
+The command at lego-pns-blue-noise-percent-5 exited with code: 0, 5.4542479634284975
+The command at lego-pns-green-noise-percent-10 exited with code: 0, 5.477360717455546
+The command at lego-pns-green-noise-percent-15 exited with code: 0, 5.619059669971466
+The command at lego-pns-green-noise-percent-20 exited with code: 0, 5.587748980522155
+The command at lego-pns-green-noise-percent-25 exited with code: 0, 5.47420426607132
+The command at lego-pns-green-noise-percent-30 exited with code: 0, 5.472274013360342
+The command at lego-pns-green-noise-percent-35 exited with code: 0, 5.599898715813954
+The command at lego-pns-green-noise-percent-40 exited with code: 0, 5.457912103335063
+The command at lego-pns-green-noise-percent-5 exited with code: 0, 5.460510694980622
+The command at lego-pns-red-noise-percent-10 exited with code: 0, 5.461604924996694
+The command at lego-pns-red-noise-percent-15 exited with code: 0, 5.481249356269837
+The command at lego-pns-red-noise-percent-20 exited with code: 0, 5.603548324108123
+The command at lego-pns-red-noise-percent-25 exited with code: 0, 5.480865987141927
+The command at lego-pns-red-noise-percent-30 exited with code: 0, 5.495086073875427
+The command at lego-pns-red-noise-percent-35 exited with code: 0, 5.463086251417796
+The command at lego-pns-red-noise-percent-40 exited with code: 0, 5.454803824424744
+The command at lego-pns-red-noise-percent-5 exited with code: 0, 5.584558125336965
+#25.03

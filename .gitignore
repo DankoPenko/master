@@ -1,0 +1,17 @@
+# Ignore pickles
+*.ckpt
+**/*.ckpt
+
+# Ignore db
+*.db
+**/*.db
+
+# Ignore zips
+*.zip
+**/*.zip
+
+# Ignore images
+*.jpg
+*.png
+**/*.jpg
+**/*.png

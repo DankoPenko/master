@@ -1,0 +1,7 @@
+The command at stump-every-2 exited with code: 0
+The command at stump-every-3 exited with code: 0
+The command at stump-every-4 exited with code: 0
+The command at stump-every-5 exited with code: 0
+The command at stump-every-6 exited with code: 0
+The command at stump-every-7 exited with code: 0
+The command at stump-every-8 exited with code: 0

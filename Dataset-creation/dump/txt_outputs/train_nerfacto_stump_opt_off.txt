@@ -1,0 +1,109 @@
+The command at position-std=0.005 exited with code: 0, 7.546216650803884
+The command at position-std=0.01 exited with code: 0, 7.299475506941477
+The command at position-std=0.015 exited with code: 0, 6.582465068499247
+The command at position-std=0.02 exited with code: 0, 6.781105045477549
+The command at position-std=0.025 exited with code: 0, 6.646389691034953
+The command at position-std=0.03 exited with code: 0, 6.94697832663854
+The command at position-std=0.035 exited with code: 0, 6.6791872898737585
+The command at position-std=0.04 exited with code: 0, 6.878049107392629
+The command at position-std=0.045 exited with code: 0, 6.9150078614552815
+The command at position-std=0.05 exited with code: 0, 6.888178698221842
+The command at position-std=0.0525 exited with code: 0, 6.914354185263316
+The command at position-std=0.055 exited with code: 0, 6.959290039539337
+The command at position-std=0.0575 exited with code: 0, 6.666315964857737
+The command at position-std=0.06 exited with code: 0, 6.70697961250941
+The command at orientation-std=0.005 exited with code: 0, 6.625607518355052
+The command at orientation-std=0.01 exited with code: 0, 6.681352241834005
+The command at orientation-std=0.015 exited with code: 0, 6.868776464462281
+The command at orientation-std=0.02 exited with code: 0, 6.876404285430908
+The command at orientation-std=0.025 exited with code: 0, 6.855839149157206
+The command at orientation-std=0.03 exited with code: 0, 6.916922803719839
+The command at orientation-std=0.035 exited with code: 0, 6.8400358637173975
+The command at orientation-std=0.04 exited with code: 0, 6.645010582605997
+The command at orientation-std=0.045 exited with code: 0, 6.803978713353475
+The command at orientation-std=0.05 exited with code: 0, 6.817763777573903
+The command at orientation-std=0.0525 exited with code: 0, 6.640222998460134
+The command at orientation-std=0.055 exited with code: 0, 6.635562992095947
+The command at orientation-std=0.0575 exited with code: 0, 6.820845603942871
+The command at orientation-std=0.06 exited with code: 0, 6.634934711456299
+The command at pos-std=0.005 and orient-std=0.005 exited with code: 0, 6.567575407028198
+The command at pos-std=0.01 and orient-std=0.01 exited with code: 0, 6.84989765882492
+The command at pos-std=0.015 and orient-std=0.015 exited with code: 0, 6.845392024517059
+The command at pos-std=0.02 and orient-std=0.02 exited with code: 0, 6.897329636414846
+The command at pos-std=0.025 and orient-std=0.025 exited with code: 0, 6.853493996461233
+The command at pos-std=0.03 and orient-std=0.03 exited with code: 0, 6.848784705003102
+The command at pos-std=0.035 and orient-std=0.035 exited with code: 0, 6.65073408683141
+The command at pos-std=0.04 and orient-std=0.04 exited with code: 0, 6.863117949167887
+The command at pos-std=0.045 and orient-std=0.045 exited with code: 0, 6.809698017438253
+The command at pos-std=0.05 and orient-std=0.05 exited with code: 0, 6.577124345302582
+The command at pos-std=0.0525 and orient-std=0.0525 exited with code: 0, 6.622311631838481
+The command at pos-std=0.055 and orient-std=0.055 exited with code: 0, 6.599300118287404
+The command at pos-std=0.0575 and orient-std=0.0575 exited with code: 0, 6.613420323530833
+The command at pos-std=0.06 and orient-std=0.06 exited with code: 0, 6.831411472956339
+The command at stump-noise-std-112 exited with code: 0, 6.602118388811747
+The command at stump-noise-std-128 exited with code: 0, 6.805063124497732
+The command at stump-noise-std-16 exited with code: 0, 6.546402633190155
+The command at stump-noise-std-32 exited with code: 0, 6.597220337390899
+The command at stump-noise-std-48 exited with code: 0, 6.558556016286214
+The command at stump-noise-std-64 exited with code: 0, 6.62371924718221
+The command at stump-noise-std-80 exited with code: 0, 6.581522818406423
+The command at stump-noise-std-96 exited with code: 0, 6.616625293095907
+The command at stump-pns-blue-noise-percent-10 exited with code: 0, 6.84690226316452
+The command at stump-pns-blue-noise-percent-15 exited with code: 0, 6.549765900770823
+The command at stump-pns-blue-noise-percent-20 exited with code: 0, 6.6141116937001545
+The command at stump-pns-blue-noise-percent-25 exited with code: 0, 6.7834007700284324
+The command at stump-pns-blue-noise-percent-30 exited with code: 0, 6.517486278216044
+The command at stump-pns-blue-noise-percent-35 exited with code: 0, 6.782775604724884
+The command at stump-pns-blue-noise-percent-40 exited with code: 0, 6.592808262507121
+The command at stump-pns-blue-noise-percent-5 exited with code: 0, 6.600849596659343
+The command at stump-pns-green-noise-percent-10 exited with code: 0, 6.656890527407328
+The command at stump-pns-green-noise-percent-15 exited with code: 0, 6.811800909042359
+The command at stump-pns-green-noise-percent-20 exited with code: 0, 6.832014203071594
+The command at stump-pns-green-noise-percent-25 exited with code: 0, 6.84829287926356
+The command at stump-pns-green-noise-percent-30 exited with code: 0, 6.645175325870514
+The command at stump-pns-green-noise-percent-35 exited with code: 0, 6.646331318219503
+The command at stump-pns-green-noise-percent-40 exited with code: 0, 6.810898077487946
+The command at stump-pns-green-noise-percent-5 exited with code: 0, 6.750505820910136
+The command at stump-pns-red-noise-percent-10 exited with code: 0, 6.775963552792867
+The command at stump-pns-red-noise-percent-15 exited with code: 0, 6.758826537926992
+The command at stump-pns-red-noise-percent-20 exited with code: 0, 6.78678050438563
+The command at stump-pns-red-noise-percent-25 exited with code: 0, 6.567403749624888
+The command at stump-pns-red-noise-percent-30 exited with code: 0, 6.635322642326355
+The command at stump-pns-red-noise-percent-35 exited with code: 0, 6.649248071511587
+The command at stump-pns-red-noise-percent-40 exited with code: 0, 6.617405196030934
+The command at stump-pns-red-noise-percent-5 exited with code: 0, 6.559202472368876
+The command at stump-range-10 exited with code: 0, 6.605181193351745
+The command at stump-range-100 exited with code: 0, 6.575091906388601
+The command at stump-range-20 exited with code: 0, 6.559426875909169
+The command at stump-range-30 exited with code: 0, 6.5805607835451765
+The command at stump-range-40 exited with code: 0, 6.559054327011109
+The command at stump-range-50 exited with code: 0, 6.370415453116099
+The command at stump-range-60 exited with code: 0, 6.402270821730296
+The command at stump-range-70 exited with code: 0, 6.5399624307950335
+The command at stump-range-80 exited with code: 0, 6.383723465601603
+The command at stump-range-90 exited with code: 0, 6.638179576396942
+The command at stump-saturation-std-0.1 exited with code: 0, 6.824888956546784
+The command at stump-saturation-std-0.2 exited with code: 0, 6.57080579996109
+The command at stump-saturation-std-0.3 exited with code: 0, 6.869093811511993
+The command at stump-saturation-std-0.4 exited with code: 0, 6.808923955758413
+The command at stump-saturation-std-0.5 exited with code: 0, 6.738556746641795
+The command at stump-saturation-std-0.6 exited with code: 0, 6.58225759267807
+The command at stump-saturation-std-0.7 exited with code: 0, 6.658571020762126
+The command at stump-saturation-std-0.8 exited with code: 0, 7.282536057631175
+The command at stump-saturation-std-0.9 exited with code: 0, 7.741857258478801
+The command at stump-saturation-std-1.0 exited with code: 0, 7.197070256868998
+The command at stump-gamma-10 exited with code: 0, 6.669463336467743
+The command at stump-gamma-15 exited with code: 0, 6.510082145531972
+The command at stump-gamma-20 exited with code: 0, 6.558584320545196
+The command at stump-gamma-25 exited with code: 0, 7.211696020762125
+The command at stump-gamma-30 exited with code: 0, 7.552801648775737
+The command at stump-gamma-35 exited with code: 0, 7.654873991012574
+The command at stump-gamma-40 exited with code: 0, 7.44442671140035
+The command at stump-gamma-5 exited with code: 0, 7.387295564015706
+The command at stump-every-2 exited with code: 0, 7.217037137349447
+The command at stump-every-3 exited with code: 0, 7.1632045149803165
+The command at stump-every-4 exited with code: 0, 6.9180547515551245
+The command at stump-every-5 exited with code: 0, 6.948584592342376
+The command at stump-every-6 exited with code: 0, 7.107922534147899
+The command at stump-every-7 exited with code: 0, 7.043786597251892
+The command at stump-every-8 exited with code: 0, 6.876739613215128
